@@ -1,0 +1,36 @@
+51:vocab_size: 262144
+52:hidden_size: 1536
+53:num_hidden_layers: 35
+54:num_attention_heads: 8
+55:num_key_value_heads: 1
+56:head_dim: 256
+57:global_head_dim: 512
+58:intermediate_size: 6144
+59:sliding_window: 512
+60:max_position_embeddings: 131072
+106:Representative layers: [0, 4]
+107:layer 0: name=model.audio_tower.layers.0.self_attn, type=None, class=Gemma4AudioAttention, heads=8, KV heads=None, head_dim=128, KV groups=None
+108:layer 4: name=model.audio_tower.layers.4.self_attn, type=None, class=Gemma4AudioAttention, heads=8, KV heads=None, head_dim=128, KV groups=None
+186:PREFILL RESULTS
+187:Logits shape: (1, 1, 262144)
+189:Initial hidden-state shape: (1, 14, 1536)
+190:Final hidden-state shape: (1, 14, 1536)
+192:Layer 0 attention probabilities: (1, 8, 14, 14)
+193:Layer 4 attention probabilities: (1, 8, 14, 14)
+194:First generated token ID: 8291
+195:First generated token: 'Here'
+200:Cache class: DynamicCache
+201:Cache sequence length: 14
+203:Layer 0 cache class: DynamicSlidingWindowLayer
+204:keys (1, 1, 14, 256)
+205:values (1, 1, 14, 256)
+207:Layer 4 cache class: DynamicLayer
+208:keys (1, 1, 14, 512)
+209:values (1, 1, 14, 512)
+214:Decode input shape: (1, 1)
+215:Decode attention-mask shape: (1, 15)
+266:Decode logits shape: (1, 1, 262144)
+267:Second generated token ID: 659
+268:Second generated token: ' are'
+269:Cache sequence length after decode: 15
+282:Peak GPU memory: 9.519 GiB

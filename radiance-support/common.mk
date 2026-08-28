@@ -1,0 +1,176 @@
+TOOLDIR ?= /opt
+
+RISCV_TOOLCHAIN_PATH ?= $(TOOLDIR)/riscv-gnu-toolchain
+STARTUP_ADDR ?= 0x80000000
+
+RISCV_PREFIX ?= riscv32-unknown-elf
+RISCV_SYSROOT ?= $(RISCV_TOOLCHAIN_PATH)/$(RISCV_PREFIX)
+RISCV64_PREFIX ?= riscv64-unknown-elf
+RISCV64_TOOLCHAIN_PATH ?= $(RISCV)
+
+RADIANCE_LIB_PATH ?= $(realpath ../../lib)
+RADIANCE_INCLUDE_PATH ?= $(RADIANCE_LIB_PATH)/include
+GEMMINI_SW_PATH ?= $(realpath ../../lib/mxgemmini)
+SOC_DIR ?= $(realpath ../../soc)
+
+LLVM_MUON ?= $(realpath ../../llvm/llvm-muon)
+
+MU_CC  = $(LLVM_MUON)/bin/clang
+MU_CXX = $(LLVM_MUON)/bin/clang++
+MU_OBJDUMP  = $(LLVM_MUON)/bin/llvm-objdump
+MU_OBJCOPY  = $(LLVM_MUON)/bin/llvm-objcopy
+
+# MU_CFLAGS += --sysroot=$(LLVM_MUON)
+MU_CFLAGS += --sysroot=$(RISCV_SYSROOT)
+MU_CFLAGS += --gcc-toolchain=$(RISCV_TOOLCHAIN_PATH) -nodefaultlibs
+MU_CFLAGS += -Xclang -target-feature -Xclang +vortex
+MU_CFLAGS += -march=rv32im_zfinx_zhinx -mabi=ilp32
+MU_CFLAGS += -O3 -std=c++20
+MU_CFLAGS += -mcmodel=medany -fno-rtti -fno-exceptions -fdata-sections -ffunction-sections
+MU_CFLAGS += -mllvm -inline-threshold=262144
+MU_CFLAGS += -I$(RADIANCE_INCLUDE_PATH) -I$(GEMMINI_SW_PATH)
+MU_CFLAGS += -isystem $(LLVM_MUON)/include/c++/v1
+# Shared MX mesh library (one copy for the gemm/gemv/ws kernels; flash kernels keep their
+# own same-dir variant, which takes precedence for `#include "mxgemm_lib.hpp"`).
+MU_CFLAGS += -I$(RADIANCE_LIB_PATH)/mxgemm
+MU_CFLAGS += -DRADIANCE -DRADIANCE_DEVICE -DNDEBUG -DLLVM_VORTEX
+# Force-include the abs() disambiguation shim ahead of gemmini.h (see the header) so the
+# MX kernels compile against an unmodified gemmini submodule.
+MU_CFLAGS += -include $(RADIANCE_INCLUDE_PATH)/gemmini_abs_shim.h
+
+# Extra device-side flags from the caller (e.g. an RTL verify harness passes -DDRAIN_ITERS=200000 so
+# the harness can let stores drain before verifying on RTL). This was referenced by the
+# gate scripts but never consumed here, silently making the flag a no-op.
+MU_CFLAGS += $(EXTRA_MU_CFLAGS)
+
+# The muon LLVM ships libc++ headers but no C library headers. Kernels that pull in
+# <math.h>/<stdlib.h> (e.g. anything including gemmini.h -> the mxgemmini kernels)
+# therefore fail to compile: libc++'s <math.h>/<stdlib.h> wrappers #include_next the
+# C headers and find nothing (FP_NORMAL, ldiv_t, ... undeclared).
+#
+# Point MU_LIBC_INCLUDE at a newlib include dir to supply them. It MUST be added with
+# -idirafter (not -I/-isystem) so it is searched *after* libc++, otherwise libc++
+# rejects the C <stdint.h> being found ahead of its own.
+# Override on the command line or in the environment for other machines.
+MU_LIBC_INCLUDE ?= $(realpath $(dir $(RISCV64_TOOLCHAIN_PATH))/riscv-tools/$(RISCV64_PREFIX)/include)
+ifneq ($(MU_LIBC_INCLUDE),)
+MU_CFLAGS += -idirafter $(MU_LIBC_INCLUDE)
+endif
+
+MU_LDFLAGS += -nodefaultlibs -nostartfiles -Wl,-Bstatic,-T,$(RADIANCE_LIB_PATH)/linker/mu_link.ld,-z,norelro -fuse-ld=lld
+MU_LDFLAGS += $(RADIANCE_LIB_PATH)/libmuonrt.a $(RADIANCE_LIB_PATH)/tohost.S
+
+ifdef MU_USE_LIBC
+# Link in libc + compiler builtins; not sure why it doesn't know about them already
+MU_LDFLAGS += -L$(LLVM_MUON)/lib/riscv32-unknown-elf -lc -lm -Wl,$(LLVM_MUON)/lib/clang/18/lib/riscv32-unknown-elf/libclang_rt.builtins.a
+endif
+
+HOST_TOOLCHAIN_PREFIX ?= $(RISCV64_TOOLCHAIN_PATH)/bin/$(RISCV64_PREFIX)
+HOST_CC ?= $(HOST_TOOLCHAIN_PREFIX)-gcc
+HOST_CXX ?= $(HOST_TOOLCHAIN_PREFIX)-g++
+HOST_AS ?= $(HOST_TOOLCHAIN_PREFIX)-as
+HOST_LD ?= $(HOST_TOOLCHAIN_PREFIX)-ld
+HOST_LINK ?= $(HOST_CC)
+HOST_OBJDUMP ?= $(HOST_TOOLCHAIN_PREFIX)-objdump
+HOST_OBJCOPY ?= $(HOST_TOOLCHAIN_PREFIX)-objcopy
+HOST_READELF ?= readelf
+
+HOST_CFLAGS ?= -march=rv64imafd -mabi=lp64d -mcmodel=medany -ffreestanding -fno-common -fno-builtin-printf \
+	       -I$(RADIANCE_INCLUDE_PATH) -I$(GEMMINI_SW_PATH)
+HOST_CXXFLAGS ?= $(HOST_CFLAGS)
+HOST_LDFLAGS ?= -static -specs=htif_nano.specs
+HOST_LIBS ?=
+
+PROJECT ?= kernel
+
+# MU_SRCS are entrypoint sources that provide main()
+# MU_SRC_DEPS are optional shared/common sources linked into every radiance target
+ifneq ($(strip $(MU_SRCS)),)
+BASE_RADIANCE_TARGETS := $(addsuffix .radiance.elf,$(basename $(MU_SRCS)))
+else
+BASE_RADIANCE_TARGETS := $(addsuffix .radiance.elf,$(PROJECT))
+endif
+
+VARIANT_RADIANCE_TARGETS := $(addsuffix .radiance.elf,$(MU_VARIANTS))
+RADIANCE_TARGETS := $(BASE_RADIANCE_TARGETS) $(VARIANT_RADIANCE_TARGETS)
+BINARIES := $(RADIANCE_TARGETS)
+OBJDUMPS := $(patsubst %.elf,%.dump,$(RADIANCE_TARGETS))
+MU_LIB_OBJS := $(sort $(addsuffix .mu.o,$(basename $(MU_SRC_DEPS))))
+
+ifneq ($(strip $(HOST_SRCS)),)
+SOC_TARGETS := $(patsubst %.radiance.elf,%.soc.elf,$(RADIANCE_TARGETS))
+BINARIES += $(SOC_TARGETS)
+OBJDUMPS += $(patsubst %.elf,%.dump,$(SOC_TARGETS))
+endif
+
+.DEFAULT_GOAL := all
+all: $(BINARIES) $(OBJDUMPS)
+
+%.radiance.dump: %.radiance.elf
+	$(MU_OBJDUMP) -D $< > $@
+%.soc.dump: %.soc.elf
+	$(HOST_OBJDUMP) -D $< > $@
+
+OBJCOPY_FLAGS ?= "LOAD,ALLOC,DATA,CONTENTS"
+# BINFILES ?=  args.bin input.a.bin input.b.bin input.c.bin
+BINFILES ?=
+# Optional object files to be linked into *.radiance.elf, e.g. kernel argument
+# tensors
+MU_BIN_OBJS ?=
+
+%.mu.o: %.cpp
+	$(MU_CXX) $(MU_CFLAGS) -c $< -o $@
+
+ifneq ($(strip $(MU_VARIANTS)),)
+VARIANT_MU_OBJS := $(addsuffix .mu.o,$(MU_VARIANTS))
+
+$(VARIANT_MU_OBJS):
+	$(MU_CXX) $(MU_CFLAGS) -c $(firstword $(filter %.cpp,$^)) -o $@
+endif
+
+%.ll: %.cpp
+	$(MU_CXX) $(MU_CFLAGS) -S -emit-llvm $< -o $@
+
+%.radiance.elf: %.mu.o $(MU_LIB_OBJS) $(MU_BIN_OBJS) $(BINFILES)
+	$(MU_CXX) $(MU_CFLAGS) $< $(MU_LIB_OBJS) $(MU_BIN_OBJS) $(MU_LDFLAGS) -o $@
+	@for bin in $(BINFILES); do \
+		sec=$$(echo $$bin | sed 's/\.bin$$//'); \
+		echo "-$(MU_OBJCOPY) --update-section .$$sec=$$bin $@"; \
+		$(MU_OBJCOPY) --set-section-flags .input.a=$(OBJCOPY_FLAGS) $@; \
+		$(MU_OBJCOPY) --update-section .$$sec=$$bin $@ || true; \
+	done
+
+ifneq ($(strip $(HOST_SRCS)),)
+HOST_OBJS := $(addsuffix .host.o,$(basename $(HOST_SRCS)))
+# don't delete HOST_OBJS and cause rebuilds of *.soc.elf
+.SECONDARY: $(HOST_OBJS)
+endif
+
+%.host.o: %.c
+	$(HOST_CC) $(HOST_CFLAGS) -c $< -o $@
+%.host.o: %.cc
+	$(HOST_CXX) $(HOST_CXXFLAGS) -c $< -o $@
+%.host.o: %.cpp
+	$(HOST_CXX) $(HOST_CXXFLAGS) -c $< -o $@
+%.host.o: %.S
+	$(HOST_CC) $(HOST_CFLAGS) -c $< -o $@
+%.host.o: %.s
+	$(HOST_CC) $(HOST_CFLAGS) -c $< -o $@
+
+%.soc.elf: %.radiance.elf $(HOST_OBJS) $(SOC_DIR)/fuse_rv32_into_rv64.sh $(SOC_DIR)/start.S
+	RV32_ELF="$<" OUT="$@" \
+	RV64_START="$(SOC_DIR)/start.S" RV64_MAIN= \
+	RV64_OBJS="$(HOST_OBJS)" RV64_CFLAGS="$(HOST_CFLAGS)" \
+	RV64_LDFLAGS="$(HOST_LDFLAGS)" RV64_LIBS="$(HOST_LIBS)" \
+	CC="$(HOST_CC)" LD="$(HOST_LD)" RV64_LINK="$(HOST_LINK)" OBJCOPY="$(HOST_OBJCOPY)" READELF="$(HOST_READELF)" \
+	$(SOC_DIR)/fuse_rv32_into_rv64.sh
+
+clean:
+	rm -rf *.o
+	rm -rf *.host.o
+	rm -rf $(BINARIES) $(OBJDUMPS)
+
+clean-all: clean
+	rm -rf *.o
+	rm -rf *.elf
+	rm -rf *.dump

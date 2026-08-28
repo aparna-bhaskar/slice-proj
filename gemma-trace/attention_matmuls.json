@@ -1,0 +1,186 @@
+[
+  {
+    "phase": "prefill",
+    "attention": "model.language_model.layers.0.self_attn",
+    "left": [
+      1,
+      8,
+      14,
+      256
+    ],
+    "right": [
+      1,
+      8,
+      256,
+      14
+    ],
+    "output": [
+      1,
+      8,
+      14,
+      14
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  {
+    "phase": "prefill",
+    "attention": "model.language_model.layers.0.self_attn",
+    "left": [
+      1,
+      8,
+      14,
+      14
+    ],
+    "right": [
+      1,
+      8,
+      14,
+      256
+    ],
+    "output": [
+      1,
+      8,
+      14,
+      256
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  {
+    "phase": "prefill",
+    "attention": "model.language_model.layers.4.self_attn",
+    "left": [
+      1,
+      8,
+      14,
+      512
+    ],
+    "right": [
+      1,
+      8,
+      512,
+      14
+    ],
+    "output": [
+      1,
+      8,
+      14,
+      14
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  {
+    "phase": "prefill",
+    "attention": "model.language_model.layers.4.self_attn",
+    "left": [
+      1,
+      8,
+      14,
+      14
+    ],
+    "right": [
+      1,
+      8,
+      14,
+      512
+    ],
+    "output": [
+      1,
+      8,
+      14,
+      512
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  {
+    "phase": "decode",
+    "attention": "model.language_model.layers.0.self_attn",
+    "left": [
+      1,
+      8,
+      1,
+      256
+    ],
+    "right": [
+      1,
+      8,
+      256,
+      15
+    ],
+    "output": [
+      1,
+      8,
+      1,
+      15
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  {
+    "phase": "decode",
+    "attention": "model.language_model.layers.0.self_attn",
+    "left": [
+      1,
+      8,
+      1,
+      15
+    ],
+    "right": [
+      1,
+      8,
+      15,
+      256
+    ],
+    "output": [
+      1,
+      8,
+      1,
+      256
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  {
+    "phase": "decode",
+    "attention": "model.language_model.layers.4.self_attn",
+    "left": [
+      1,
+      8,
+      1,
+      512
+    ],
+    "right": [
+      1,
+      8,
+      512,
+      15
+    ],
+    "output": [
+      1,
+      8,
+      1,
+      15
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  {
+    "phase": "decode",
+    "attention": "model.language_model.layers.4.self_attn",
+    "left": [
+      1,
+      8,
+      1,
+      15
+    ],
+    "right": [
+      1,
+      8,
+      15,
+      512
+    ],
+    "output": [
+      1,
+      8,
+      1,
+      512
+    ],
+    "dtype": "torch.bfloat16"
+  }
+]

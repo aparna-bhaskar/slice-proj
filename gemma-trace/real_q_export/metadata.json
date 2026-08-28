@@ -1,0 +1,37 @@
+{
+  "model_id": "google/gemma-4-E2B-it",
+  "prompt": "The cat sat on the",
+  "formatted_prompt": "<bos><|turn>user\nThe cat sat on the<turn|>\n<|turn>model\n",
+  "module_name": "model.language_model.layers.0.self_attn.q_proj",
+  "input_ids_shape": [
+    1,
+    14
+  ],
+  "x_shape": [
+    14,
+    1536
+  ],
+  "wq_pytorch_shape": [
+    2048,
+    1536
+  ],
+  "wq_transposed_shape": [
+    1536,
+    2048
+  ],
+  "q_shape": [
+    14,
+    2048
+  ],
+  "x_scale": 3.007874011993408,
+  "w_scale": 0.0036448079627007246,
+  "q_output_scale": 10.39370059967041,
+  "gemmini_c_scale": 0.0010547853307798505,
+  "max_absolute_error": 19.905517578125,
+  "mean_absolute_error": 2.7847163677215576,
+  "rmse": 3.3097000122070312,
+  "cosine_similarity": 0.9983120560646057,
+  "saturated_min": 0,
+  "saturated_max": 3,
+  "expected_checksum": 3095
+}

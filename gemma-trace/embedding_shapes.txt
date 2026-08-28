@@ -1,0 +1,59 @@
+140:name: token_embedding
+141-class: Gemma4TextScaledWordEmbedding
+142-weights: {'weight': [262144, 1536]}
+143-input: [{'shape': [1, 14], 'dtype': 'torch.int64', 'device': 'cuda:0'}]
+144-output: {'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+148:name: model.language_model.embed_tokens_per_layer
+149-class: Gemma4TextScaledWordEmbedding
+150-weights: {'weight': [262144, 8960]}
+151-input: [{'shape': [1, 14], 'dtype': 'torch.int64', 'device': 'cuda:0'}]
+152-output: {'shape': [1, 14, 8960], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+156:name: model.language_model.per_layer_model_projection
+157-class: Linear
+158-weights: {'weight': [8960, 1536]}
+159-input: [{'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+160-output: {'shape': [1, 14, 8960], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+164:name: model.language_model.per_layer_projection_norm
+165-class: Gemma4RMSNorm
+166-weights: {'weight': [256]}
+167-input: [{'shape': [1, 14, 35, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+168-output: {'shape': [1, 14, 35, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+180:name: lm_head
+181-class: Linear
+182-weights: {'weight': [262144, 1536]}
+183-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+184-output: {'shape': [1, 1, 262144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+219:name: token_embedding
+220-class: Gemma4TextScaledWordEmbedding
+221-weights: {'weight': [262144, 1536]}
+222-input: [{'shape': [1, 1], 'dtype': 'torch.int64', 'device': 'cuda:0'}]
+223-output: {'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+227:name: model.language_model.embed_tokens_per_layer
+228-class: Gemma4TextScaledWordEmbedding
+229-weights: {'weight': [262144, 8960]}
+230-input: [{'shape': [1, 1], 'dtype': 'torch.int64', 'device': 'cuda:0'}]
+231-output: {'shape': [1, 1, 8960], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+235:name: model.language_model.per_layer_model_projection
+236-class: Linear
+237-weights: {'weight': [8960, 1536]}
+238-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+239-output: {'shape': [1, 1, 8960], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+243:name: model.language_model.per_layer_projection_norm
+244-class: Gemma4RMSNorm
+245-weights: {'weight': [256]}
+246-input: [{'shape': [1, 1, 35, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+247-output: {'shape': [1, 1, 35, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+259:name: lm_head
+260-class: Linear
+261-weights: {'weight': [262144, 1536]}
+262-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+263-output: {'shape': [1, 1, 262144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}

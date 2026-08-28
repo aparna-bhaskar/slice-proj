@@ -1,0 +1,215 @@
+211:name: model.language_model.layers.0.self_attn.q_proj
+212-class: Linear
+213-weights: {'weight': [2048, 1536]}
+214-input: [{'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+215-output: {'shape': [1, 14, 2048], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+227:name: model.language_model.layers.0.self_attn.k_proj
+228-class: Linear
+229-weights: {'weight': [256, 1536]}
+230-input: [{'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+231-output: {'shape': [1, 14, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+235:name: model.language_model.layers.0.self_attn.v_proj
+236-class: Linear
+237-weights: {'weight': [256, 1536]}
+238-input: [{'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+239-output: {'shape': [1, 14, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+275:name: model.language_model.layers.0.self_attn.o_proj
+276-class: Linear
+277-weights: {'weight': [1536, 2048]}
+278-input: [{'shape': [1, 14, 2048], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+279-output: {'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+310:name: model.language_model.layers.0.mlp.gate_proj
+311-class: Linear
+312-weights: {'weight': [6144, 1536]}
+313-input: [{'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+314-output: {'shape': [1, 14, 6144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+318:name: model.language_model.layers.0.mlp.up_proj
+319-class: Linear
+320-weights: {'weight': [6144, 1536]}
+321-input: [{'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+322-output: {'shape': [1, 14, 6144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+326:name: model.language_model.layers.0.mlp.down_proj
+327-class: Linear
+328-weights: {'weight': [1536, 6144]}
+329-input: [{'shape': [1, 14, 6144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+330-output: {'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+350:name: model.language_model.layers.0.per_layer_input_gate
+351-class: Linear
+352-weights: {'weight': [256, 1536]}
+353-input: [{'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+354-output: {'shape': [1, 14, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+358:name: model.language_model.layers.0.per_layer_projection
+359-class: Linear
+360-weights: {'weight': [1536, 256]}
+361-input: [{'shape': [1, 14, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+362-output: {'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+387:name: model.language_model.layers.4.self_attn.q_proj
+388-class: Linear
+389-weights: {'weight': [4096, 1536]}
+390-input: [{'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+391-output: {'shape': [1, 14, 4096], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+403:name: model.language_model.layers.4.self_attn.k_proj
+404-class: Linear
+405-weights: {'weight': [512, 1536]}
+406-input: [{'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+407-output: {'shape': [1, 14, 512], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+411:name: model.language_model.layers.4.self_attn.v_proj
+412-class: Linear
+413-weights: {'weight': [512, 1536]}
+414-input: [{'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+415-output: {'shape': [1, 14, 512], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+451:name: model.language_model.layers.4.self_attn.o_proj
+452-class: Linear
+453-weights: {'weight': [1536, 4096]}
+454-input: [{'shape': [1, 14, 4096], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+455-output: {'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+486:name: model.language_model.layers.4.mlp.gate_proj
+487-class: Linear
+488-weights: {'weight': [6144, 1536]}
+489-input: [{'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+490-output: {'shape': [1, 14, 6144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+494:name: model.language_model.layers.4.mlp.up_proj
+495-class: Linear
+496-weights: {'weight': [6144, 1536]}
+497-input: [{'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+498-output: {'shape': [1, 14, 6144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+502:name: model.language_model.layers.4.mlp.down_proj
+503-class: Linear
+504-weights: {'weight': [1536, 6144]}
+505-input: [{'shape': [1, 14, 6144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+506-output: {'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+526:name: model.language_model.layers.4.per_layer_input_gate
+527-class: Linear
+528-weights: {'weight': [256, 1536]}
+529-input: [{'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+530-output: {'shape': [1, 14, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+534:name: model.language_model.layers.4.per_layer_projection
+535-class: Linear
+536-weights: {'weight': [1536, 256]}
+537-input: [{'shape': [1, 14, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+538-output: {'shape': [1, 14, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+642:name: model.language_model.layers.0.self_attn.q_proj
+643-class: Linear
+644-weights: {'weight': [2048, 1536]}
+645-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+646-output: {'shape': [1, 1, 2048], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+658:name: model.language_model.layers.0.self_attn.k_proj
+659-class: Linear
+660-weights: {'weight': [256, 1536]}
+661-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+662-output: {'shape': [1, 1, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+666:name: model.language_model.layers.0.self_attn.v_proj
+667-class: Linear
+668-weights: {'weight': [256, 1536]}
+669-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+670-output: {'shape': [1, 1, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+706:name: model.language_model.layers.0.self_attn.o_proj
+707-class: Linear
+708-weights: {'weight': [1536, 2048]}
+709-input: [{'shape': [1, 1, 2048], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+710-output: {'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+741:name: model.language_model.layers.0.mlp.gate_proj
+742-class: Linear
+743-weights: {'weight': [6144, 1536]}
+744-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+745-output: {'shape': [1, 1, 6144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+749:name: model.language_model.layers.0.mlp.up_proj
+750-class: Linear
+751-weights: {'weight': [6144, 1536]}
+752-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+753-output: {'shape': [1, 1, 6144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+757:name: model.language_model.layers.0.mlp.down_proj
+758-class: Linear
+759-weights: {'weight': [1536, 6144]}
+760-input: [{'shape': [1, 1, 6144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+761-output: {'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+781:name: model.language_model.layers.0.per_layer_input_gate
+782-class: Linear
+783-weights: {'weight': [256, 1536]}
+784-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+785-output: {'shape': [1, 1, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+789:name: model.language_model.layers.0.per_layer_projection
+790-class: Linear
+791-weights: {'weight': [1536, 256]}
+792-input: [{'shape': [1, 1, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+793-output: {'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+818:name: model.language_model.layers.4.self_attn.q_proj
+819-class: Linear
+820-weights: {'weight': [4096, 1536]}
+821-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+822-output: {'shape': [1, 1, 4096], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+834:name: model.language_model.layers.4.self_attn.k_proj
+835-class: Linear
+836-weights: {'weight': [512, 1536]}
+837-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+838-output: {'shape': [1, 1, 512], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+842:name: model.language_model.layers.4.self_attn.v_proj
+843-class: Linear
+844-weights: {'weight': [512, 1536]}
+845-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+846-output: {'shape': [1, 1, 512], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+882:name: model.language_model.layers.4.self_attn.o_proj
+883-class: Linear
+884-weights: {'weight': [1536, 4096]}
+885-input: [{'shape': [1, 1, 4096], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+886-output: {'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+917:name: model.language_model.layers.4.mlp.gate_proj
+918-class: Linear
+919-weights: {'weight': [6144, 1536]}
+920-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+921-output: {'shape': [1, 1, 6144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+925:name: model.language_model.layers.4.mlp.up_proj
+926-class: Linear
+927-weights: {'weight': [6144, 1536]}
+928-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+929-output: {'shape': [1, 1, 6144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+933:name: model.language_model.layers.4.mlp.down_proj
+934-class: Linear
+935-weights: {'weight': [1536, 6144]}
+936-input: [{'shape': [1, 1, 6144], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+937-output: {'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+957:name: model.language_model.layers.4.per_layer_input_gate
+958-class: Linear
+959-weights: {'weight': [256, 1536]}
+960-input: [{'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+961-output: {'shape': [1, 1, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}
+--
+965:name: model.language_model.layers.4.per_layer_projection
+966-class: Linear
+967-weights: {'weight': [1536, 256]}
+968-input: [{'shape': [1, 1, 256], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}]
+969-output: {'shape': [1, 1, 1536], 'dtype': 'torch.bfloat16', 'device': 'cuda:0'}

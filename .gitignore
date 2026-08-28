@@ -1,21 +1,37 @@
+# Build artifacts
 *.o
 *.elf
 *.dump
+
+# Simulator output
 *.log
 *.vcd
 *.fst
+*.pid
 
-data
-expected
-
+# Python
 __pycache__/
 *.pyc
 
+# Large/generated tensors
+*.npy
+*.npz
+
+# Archives
+*.tar
+*.tar.gz
+
+# Generated kernel files
+data
+expected
+
+# Debug backups
 *.before_*
 *.FAIL_*
 *.bak
 *~
 
-.DS_Store
+# Editors/system
 .vscode/
+.DS_Store
 
