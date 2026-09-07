@@ -11,6 +11,8 @@ uint32_t __mu_num_warps =
 
 #include "data"
 
+__global volatile uint32_t softmax_status[MU_NUM_CORES * MU_NUM_THREADS] = {};
+
 
 struct SoftmaxArgs {
 
@@ -402,30 +404,15 @@ attention_softmax(
 
       local_bad |=
           static_cast<uint32_t>(
-            diff > 1.0e-3f
+            !(diff <= 1.0e-3f)
           );
     }
   }
 
 
-  /*
-   * Same correctness mechanism as the
-   * passing RoPE/GELU tests:
-   *
-   * any mismatch keeps a Muon thread
-   * active forever, preventing normal
-   * completion.
-   */
-  /* original
-  if (local_bad != 0) {
-    while (1) {
-        asm volatile("nop");
-    }
-  }
-  */
-  if (local_bad != 0) { 
-    return;// temporarily changed from infinite loop
-}
+  // Publish per-lane status; check it from the single manager lane in main.
+  softmax_status[tid_in_threadblock] = local_bad;
+  mu_fence();
 }
 
 
@@ -501,5 +488,13 @@ int main() {
   );
 
 
+  mu_fence();
+  uint32_t bad = 0;
+  for (uint32_t i = 0; i < MU_NUM_CORES * MU_NUM_THREADS; ++i) {
+    bad |= softmax_status[i];
+  }
+  if (bad != 0) {
+    while (1) { asm volatile("nop"); }
+  }
   return 0;
 }

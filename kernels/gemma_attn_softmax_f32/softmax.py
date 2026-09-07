@@ -1,10 +1,17 @@
 from pathlib import Path
 import torch
+import argparse
+import json
 
 # Gemma-4 E2B layer-0 sliding attention.
-HEADS = 1
-SEQ = 2
-SLIDING_WINDOW = 512
+parser = argparse.ArgumentParser()
+parser.add_argument("--heads", type=int, default=1)
+parser.add_argument("--seq", type=int, default=2)
+parser.add_argument("--window", type=int, default=512)
+args = parser.parse_args()
+HEADS, SEQ, SLIDING_WINDOW = args.heads, args.seq, args.window
+if min(HEADS, SEQ, SLIDING_WINDOW) < 1:
+    parser.error("heads, seq and window must be positive")
 
 # Gemma-4 E2B TEXT attention:
 # scaling = query_pre_attn_scalar ** -0.5
@@ -370,3 +377,11 @@ print(
     "checksum:",
     float(Y.sum()),
 )
+
+# Independent full-precision PyTorch target for RTL memory-trace verification.
+Path("reference.json").write_text(json.dumps({
+    "heads": HEADS, "seq": SEQ, "window": SLIDING_WINDOW,
+    "scale": SCALE, "scores": SCORES.reshape(-1).tolist(),
+    "expected": Y.reshape(-1).tolist(),
+    "lut_max_error": max_lut_error, "atol": 2.0e-6,
+}) + "\n")
