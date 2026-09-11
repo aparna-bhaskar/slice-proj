@@ -1,0 +1,26 @@
+From 42a570500d323a85751cbd49f550d10c7878b4de Mon Sep 17 00:00:00 2001
+From: aparna-bhaskar <aparna_bhaskar@berkeley.edu>
+Date: Fri, 11 Sep 2026 16:43:28 -0700
+Subject: [PATCH] fix Radiance Verilator build warning
+
+---
+ sims/verilator/Makefile | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/sims/verilator/Makefile b/sims/verilator/Makefile
+index 51a14af4..6f164646 100644
+--- a/sims/verilator/Makefile
++++ b/sims/verilator/Makefile
+@@ -105,7 +105,8 @@ VERILATOR_OPT_FLAGS ?= \
+ 	--x-assign fast \
+ 	--x-initial fast \
+ 	--output-split 10000 \
+-	--output-split-cfuncs 100
++	--output-split-cfuncs 100 \
++	-Wno-BLKANDNBLK
+ 
+ # default flags added for external IP (cva6/NVDLA)
+ VERILOG_IP_VERILATOR_FLAGS := \
+-- 
+2.45.0
+

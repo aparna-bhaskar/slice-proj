@@ -1,0 +1,56 @@
+From 20c0531c9d5ff742ac85371f83e9ef6d5cf3e126 Mon Sep 17 00:00:00 2001
+From: aparna-bhaskar <aparna_bhaskar@berkeley.edu>
+Date: Fri, 11 Sep 2026 16:43:17 -0700
+Subject: [PATCH] fix Muon setup
+
+---
+ build.sh | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+diff --git a/build.sh b/build.sh
+index a5af28a6ce23..b9b06277368d 100755
+--- a/build.sh
++++ b/build.sh
+@@ -2,7 +2,7 @@
+ # Assumes current dir is build dir
+ LLVM_PREBUILT="$1"
+ MUON_LLVM_INSTALL="$2"
+-RUNTIME_SYSROOT="/opt/riscv/sysroot/usr"
++RUNTIME_SYSROOT="$HOME/riscv32-ilp32/riscv32-unknown-elf"
+ SYSROOT_OVERLAY="$PWD/sysroot-overlay"
+ mkdir -p "$SYSROOT_OVERLAY/include/gnu"
+ cat > "$SYSROOT_OVERLAY/include/gnu/stubs-ilp32.h" <<'EOF'
+@@ -38,6 +38,8 @@ cmake -G "Ninja" ../llvm \
+ -DLLVM_BUILTIN_TARGETS=$TARGET \
+ -DRUNTIMES_riscv32-unknown-elf_CMAKE_C_FLAGS="$CFLAGS" \
+ -DRUNTIMES_riscv32-unknown-elf_CMAKE_CXX_FLAGS="$CXXFLAGS" \
++-DRUNTIMES_riscv32-unknown-elf_LLVM_LIBC_FULL_BUILD=ON \
++-DLLVM_LIBC_FULL_BUILD=ON \
+ -DRUNTIMES_riscv32-unknown-elf_COMPILER_RT_BAREMETAL_BUILD=ON \
+ -DRUNTIMES_riscv32-unknown-elf_COMPILER_RT_BUILD_BUILTINS=ON \
+ -DRUNTIMES_riscv32-unknown-elf_COMPILER_RT_BUILD_SANITIZERS=OFF \
+@@ -49,6 +51,7 @@ cmake -G "Ninja" ../llvm \
+ -DRUNTIMES_riscv32-unknown-elf_COMPILER_RT_BUILD_GWP_ASAN=OFF \
+ -DRUNTIMES_riscv32-unknown-elf_COMPILER_RT_USE_BUILTINS_LIBRARY=ON \
+ -DRUNTIMES_riscv32-unknown-elf_CMAKE_SYSROOT="$RUNTIME_SYSROOT" \
++-DRUNTIMES_riscv32-unknown-elf_CMAKE_TRY_COMPILE_TARGET_TYPE=STATIC_LIBRARY \
+ -DBUILTINS_riscv32-unknown-elf_COMPILER_RT_BAREMETAL_BUILD=ON \
+ -DBUILTINS_riscv32-unknown-elf_CMAKE_SYSROOT="$RUNTIME_SYSROOT" \
+ -DBUILTINS_riscv32-unknown-elf_CMAKE_C_FLAGS="$CFLAGS" \
+@@ -56,7 +59,7 @@ cmake -G "Ninja" ../llvm \
+ -DRUNTIMES_riscv32-unknown-elf_LIBCXX_ENABLE_SHARED=OFF \
+ -DRUNTIMES_riscv32-unknown-elf_LIBCXX_ENABLE_THREADS=OFF \
+ -DRUNTIMES_riscv32-unknown-elf_LIBCXX_ENABLE_MONOTONIC_CLOCK=OFF \
+--DRUNTIMES_riscv32-unknown-elf_LIBCXX_ENABLE_WIDE_CHARACTERS=OFF \
++-DRUNTIMES_riscv32-unknown-elf_LIBCXX_ENABLE_WIDE_CHARACTERS=ON \
+ -DRUNTIMES_riscv32-unknown-elf_LIBCXX_ENABLE_LOCALIZATION=OFF \
+ -DRUNTIMES_riscv32-unknown-elf_LIBCXX_ENABLE_FSTREAM=OFF \
+ -DRUNTIMES_riscv32-unknown-elf_LIBCXX_ENABLE_IOSTREAM=OFF \
+@@ -73,3 +76,4 @@ cmake -G "Ninja" ../llvm \
+ -DRUNTIMES_riscv32-unknown-elf_LIBCXXABI_ENABLE_NEW_DELETE_DEFINITIONS=OFF \
+ -DRUNTIMES_riscv32-unknown-elf_LIBCXXABI_ENABLE_ASSERTIONS=OFF \
+ -DRUNTIMES_riscv32-unknown-elf_LIBCXXABI_ENABLE_SHARED=OFF \
++-DRUNTIMES_riscv32-unknown-elf_CMAKE_TOOLCHAIN_FILE=$HOME/radiance-kernels/llvm/riscv32-muon-toolchain.cmake
+-- 
+2.45.0
+
