@@ -1,0 +1,1993 @@
+__DepSet_hbb6e3b65__41.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__42.o VTestDriver___024root
+__DepSet_hbb6e3b65__42.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__43.o VTestDriver___024root
+__DepSet_hbb6e3b65__43.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__44.o VTestDriver___024root
+__DepSet_hbb6e3b65__44.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__45.o VTestDriver___024root
+__DepSet_hbb6e3b65__45.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__46.o VTestDriver___024root
+__DepSet_hbb6e3b65__46.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__47.o VTestDriver___024root
+__DepSet_hbb6e3b65__47.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__48.o VTestDriver___024root
+__DepSet_hbb6e3b65__48.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__49.o VTestDriver___024root
+__DepSet_hbb6e3b65__49.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__50.o VTestDriver___024root
+__DepSet_hbb6e3b65__50.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__51.o VTestDriver___024root
+__DepSet_hbb6e3b65__51.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__52.o VTestDriver___024root
+__DepSet_hbb6e3b65__52.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__53.o VTestDriver___024root
+__DepSet_hbb6e3b65__53.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__54.o VTestDriver___024root
+__DepSet_hbb6e3b65__54.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__55.o VTestDriver___024root
+__DepSet_hbb6e3b65__55.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__56.o VTestDriver___024root
+__DepSet_hbb6e3b65__56.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__57.o VTestDriver___024root
+__DepSet_hbb6e3b65__57.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__58.o VTestDriver___024root
+__DepSet_hbb6e3b65__58.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__59.o VTestDriver___024root
+__DepSet_hbb6e3b65__59.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__60.o VTestDriver___024root
+__DepSet_hbb6e3b65__60.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__61.o VTestDriver___024root
+__DepSet_hbb6e3b65__61.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__62.o VTestDriver___024root
+__DepSet_hbb6e3b65__62.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__63.o VTestDriver___024root
+__DepSet_hbb6e3b65__63.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__64.o VTestDriver___024root
+__DepSet_hbb6e3b65__64.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__65.o VTestDriver___024root
+__DepSet_hbb6e3b65__65.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__66.o VTestDriver___024root
+__DepSet_hbb6e3b65__66.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__67.o VTestDriver___024root
+__DepSet_hbb6e3b65__67.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__68.o VTestDriver___024root
+__DepSet_hbb6e3b65__68.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__69.o VTestDriver___024root
+__DepSet_hbb6e3b65__69.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__70.o VTestDriver___024root
+__DepSet_hbb6e3b65__70.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__71.o VTestDriver___024root
+__DepSet_hbb6e3b65__71.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__72.o VTestDriver___024root
+__DepSet_hbb6e3b65__72.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024root__DepSet_hbb6e3b65__73.o VTestDriver___024root
+__DepSet_hbb6e3b65__73.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver___024unit__DepSet_hf172cd27__0.o VTestDriver___024unit_
+_DepSet_hf172cd27__0.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver__main.o VTestDriver__main.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++ -Os  -I.  -MMD -I/home/aparna/
+chipyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/
+verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -fali
+gned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compa
+re -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter
+-Wno-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include
+-I/home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.ha
+rness.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -in
+clude VTestDriver__pch.h.fast -c -o VTestDriver__Dpi.o VTestDriver__Dpi.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -x c++
+-header VTestDriver__pch.h -o VTestDriver__pch.h.slow.gch
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver__ConstPool_0.o VTestDriver__ConstPool_0.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__Slow.o VTestDriver___024root__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_h662e1026__0__Slow.o VTestDriver___024ro
+ot__DepSet_h662e1026__0__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__0__Slow.o VTestDriver___024ro
+ot__DepSet_hbb6e3b65__0__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__1__Slow.o VTestDriver___024ro
+ot__DepSet_hbb6e3b65__1__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__2__Slow.o VTestDriver___024ro
+ot__DepSet_hbb6e3b65__2__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__3__Slow.o VTestDriver___024ro
+ot__DepSet_hbb6e3b65__3__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__4__Slow.o VTestDriver___024ro
+ot__DepSet_hbb6e3b65__4__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__5__Slow.o VTestDriver___024ro
+ot__DepSet_hbb6e3b65__5__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__6__Slow.o VTestDriver___024ro
+ot__DepSet_hbb6e3b65__6__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__7__Slow.o VTestDriver___024ro
+ot__DepSet_hbb6e3b65__7__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__8__Slow.o VTestDriver___024ro
+ot__DepSet_hbb6e3b65__8__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__9__Slow.o VTestDriver___024ro
+ot__DepSet_hbb6e3b65__9__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__10__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__10__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__11__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__11__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__12__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__12__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__13__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__13__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__14__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__14__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__15__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__15__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__16__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__16__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__17__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__17__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__18__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__18__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__19__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__19__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__20__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__20__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__21__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__21__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__22__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__22__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__23__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__23__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__24__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__24__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__25__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__25__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__26__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__26__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__27__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__27__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__28__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__28__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__29__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__29__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__30__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__30__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__31__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__31__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__32__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__32__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__33__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__33__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__34__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__34__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__35__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__35__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__36__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__36__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__37__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__37__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__38__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__38__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__39__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__39__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__40__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__40__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__41__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__41__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__42__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__42__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__43__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__43__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__44__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__44__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__45__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__45__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__46__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__46__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__47__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__47__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__48__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__48__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__49__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__49__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__50__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__50__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__51__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__51__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__52__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__52__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__53__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__53__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__54__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__54__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__55__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__55__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__56__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__56__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__57__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__57__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__58__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__58__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__59__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__59__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__60__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__60__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__61__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__61__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__62__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__62__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__63__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__63__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__64__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__64__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__65__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__65__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__66__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__66__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__67__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__67__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__68__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__68__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__69__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__69__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__70__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__70__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__71__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__71__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__72__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__72__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__73__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__73__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024root__DepSet_hbb6e3b65__74__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__74__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024unit__Slow.o VTestDriver___024unit__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver___024unit__DepSet_h44496666__0__Slow.o VTestDriver___024un
+it__DepSet_h44496666__0__Slow.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver__Syms.o VTestDriver__Syms.cpp
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++   -I.  -MMD -I/home/aparna/chi
+pyard-graphics/.conda-env/share/verilator/include -I/home/aparna/chipyard-graphics/.conda-env/share/ver
+ilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligne
+d-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare
+-Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wn
+o-unused-variable    -O3 -std=c++17 -I/home/aparna/chipyard-graphics/.conda-env/riscv-tools/include -I/
+home/aparna/chipyard/tools/DRAMSim2 -I/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harne
+ss.TestHarness.GemminiRocketConfig/gen-collateral   -DVERILATOR -DVL_TIME_CONTEXT   -fcoroutines -inclu
+de VTestDriver__pch.h.slow -c -o VTestDriver__Syms__1.o VTestDriver__Syms__1.cpp
+echo "" > VTestDriver__ALL.verilator_deplist.tmp
+Archive /home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-ar -rcs VTestDriver__ALL.a
+ VTestDriver.o VTestDriver___024root__DepSet_h662e1026__0.o VTestDriver___024root__DepSet_h662e1026__1.
+o VTestDriver___024root__DepSet_h662e1026__2.o VTestDriver___024root__DepSet_h662e1026__3.o VTestDriver
+___024root__DepSet_h662e1026__4.o VTestDriver___024root__DepSet_h662e1026__5.o VTestDriver___024root__D
+epSet_h662e1026__6.o VTestDriver___024root__DepSet_h662e1026__7.o VTestDriver___024root__DepSet_h662e10
+26__8.o VTestDriver___024root__DepSet_h662e1026__9.o VTestDriver___024root__DepSet_h662e1026__10.o VTes
+tDriver___024root__DepSet_h662e1026__11.o VTestDriver___024root__DepSet_h662e1026__12.o VTestDriver___0
+24root__DepSet_h662e1026__13.o VTestDriver___024root__DepSet_h662e1026__14.o VTestDriver___024root__Dep
+Set_h662e1026__15.o VTestDriver___024root__DepSet_h662e1026__16.o VTestDriver___024root__DepSet_h662e10
+26__17.o VTestDriver___024root__DepSet_h662e1026__18.o VTestDriver___024root__DepSet_h662e1026__19.o VT
+estDriver___024root__DepSet_h662e1026__20.o VTestDriver___024root__DepSet_h662e1026__21.o VTestDriver__
+_024root__DepSet_h662e1026__22.o VTestDriver___024root__DepSet_h662e1026__23.o VTestDriver___024root__D
+epSet_h662e1026__24.o VTestDriver___024root__DepSet_h662e1026__25.o VTestDriver___024root__DepSet_h662e
+1026__26.o VTestDriver___024root__DepSet_h662e1026__27.o VTestDriver___024root__DepSet_h662e1026__28.o
+VTestDriver___024root__DepSet_h662e1026__29.o VTestDriver___024root__DepSet_h662e1026__30.o VTestDriver
+___024root__DepSet_h662e1026__31.o VTestDriver___024root__DepSet_h662e1026__32.o VTestDriver___024root_
+_DepSet_h662e1026__33.o VTestDriver___024root__DepSet_h662e1026__34.o VTestDriver___024root__DepSet_h66
+2e1026__35.o VTestDriver___024root__DepSet_h662e1026__36.o VTestDriver___024root__DepSet_h662e1026__37.
+o VTestDriver___024root__DepSet_h662e1026__38.o VTestDriver___024root__DepSet_h662e1026__39.o VTestDriv
+er___024root__DepSet_h662e1026__40.o VTestDriver___024root__DepSet_h662e1026__41.o VTestDriver___024roo
+t__DepSet_h662e1026__42.o VTestDriver___024root__DepSet_h662e1026__43.o VTestDriver___024root__DepSet_h
+662e1026__44.o VTestDriver___024root__DepSet_h662e1026__45.o VTestDriver___024root__DepSet_h662e1026__4
+6.o VTestDriver___024root__DepSet_h662e1026__47.o VTestDriver___024root__DepSet_h662e1026__48.o VTestDr
+iver___024root__DepSet_h662e1026__49.o VTestDriver___024root__DepSet_h662e1026__50.o VTestDriver___024r
+oot__DepSet_h662e1026__51.o VTestDriver___024root__DepSet_h662e1026__52.o VTestDriver___024root__DepSet
+_h662e1026__53.o VTestDriver___024root__DepSet_h662e1026__54.o VTestDriver___024root__DepSet_h662e1026_
+_55.o VTestDriver___024root__DepSet_h662e1026__56.o VTestDriver___024root__DepSet_h662e1026__57.o VTest
+Driver___024root__DepSet_h662e1026__58.o VTestDriver___024root__DepSet_h662e1026__59.o VTestDriver___02
+4root__DepSet_h662e1026__60.o VTestDriver___024root__DepSet_h662e1026__61.o VTestDriver___024root__DepS
+et_h662e1026__62.o VTestDriver___024root__DepSet_h662e1026__63.o VTestDriver___024root__DepSet_h662e102
+6__64.o VTestDriver___024root__DepSet_h662e1026__65.o VTestDriver___024root__DepSet_h662e1026__66.o VTe
+stDriver___024root__DepSet_h662e1026__67.o VTestDriver___024root__DepSet_h662e1026__68.o VTestDriver___
+024root__DepSet_hbb6e3b65__0.o VTestDriver___024root__DepSet_hbb6e3b65__1.o VTestDriver___024root__DepS
+et_hbb6e3b65__2.o VTestDriver___024root__DepSet_hbb6e3b65__3.o VTestDriver___024root__DepSet_hbb6e3b65_
+_4.o VTestDriver___024root__DepSet_hbb6e3b65__5.o VTestDriver___024root__DepSet_hbb6e3b65__6.o VTestDri
+ver___024root__DepSet_hbb6e3b65__7.o VTestDriver___024root__DepSet_hbb6e3b65__8.o VTestDriver___024root
+__DepSet_hbb6e3b65__9.o VTestDriver___024root__DepSet_hbb6e3b65__10.o VTestDriver___024root__DepSet_hbb
+6e3b65__11.o VTestDriver___024root__DepSet_hbb6e3b65__12.o VTestDriver___024root__DepSet_hbb6e3b65__13.
+o VTestDriver___024root__DepSet_hbb6e3b65__14.o VTestDriver___024root__DepSet_hbb6e3b65__15.o VTestDriv
+er___024root__DepSet_hbb6e3b65__16.o VTestDriver___024root__DepSet_hbb6e3b65__17.o VTestDriver___024roo
+t__DepSet_hbb6e3b65__18.o VTestDriver___024root__DepSet_hbb6e3b65__19.o VTestDriver___024root__DepSet_h
+bb6e3b65__20.o VTestDriver___024root__DepSet_hbb6e3b65__21.o VTestDriver___024root__DepSet_hbb6e3b65__2
+2.o VTestDriver___024root__DepSet_hbb6e3b65__23.o VTestDriver___024root__DepSet_hbb6e3b65__24.o VTestDr
+iver___024root__DepSet_hbb6e3b65__25.o VTestDriver___024root__DepSet_hbb6e3b65__26.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__27.o VTestDriver___024root__DepSet_hbb6e3b65__28.o VTestDriver___024root__DepSet
+_hbb6e3b65__29.o VTestDriver___024root__DepSet_hbb6e3b65__30.o VTestDriver___024root__DepSet_hbb6e3b65_
+_31.o VTestDriver___024root__DepSet_hbb6e3b65__32.o VTestDriver___024root__DepSet_hbb6e3b65__33.o VTest
+Driver___024root__DepSet_hbb6e3b65__34.o VTestDriver___024root__DepSet_hbb6e3b65__35.o VTestDriver___02
+4root__DepSet_hbb6e3b65__36.o VTestDriver___024root__DepSet_hbb6e3b65__37.o VTestDriver___024root__DepS
+et_hbb6e3b65__38.o VTestDriver___024root__DepSet_hbb6e3b65__39.o VTestDriver___024root__DepSet_hbb6e3b6
+5__40.o VTestDriver___024root__DepSet_hbb6e3b65__41.o VTestDriver___024root__DepSet_hbb6e3b65__42.o VTe
+stDriver___024root__DepSet_hbb6e3b65__43.o VTestDriver___024root__DepSet_hbb6e3b65__44.o VTestDriver___
+024root__DepSet_hbb6e3b65__45.o VTestDriver___024root__DepSet_hbb6e3b65__46.o VTestDriver___024root__De
+pSet_hbb6e3b65__47.o VTestDriver___024root__DepSet_hbb6e3b65__48.o VTestDriver___024root__DepSet_hbb6e3
+b65__49.o VTestDriver___024root__DepSet_hbb6e3b65__50.o VTestDriver___024root__DepSet_hbb6e3b65__51.o V
+TestDriver___024root__DepSet_hbb6e3b65__52.o VTestDriver___024root__DepSet_hbb6e3b65__53.o VTestDriver_
+__024root__DepSet_hbb6e3b65__54.o VTestDriver___024root__DepSet_hbb6e3b65__55.o VTestDriver___024root__
+DepSet_hbb6e3b65__56.o VTestDriver___024root__DepSet_hbb6e3b65__57.o VTestDriver___024root__DepSet_hbb6
+e3b65__58.o VTestDriver___024root__DepSet_hbb6e3b65__59.o VTestDriver___024root__DepSet_hbb6e3b65__60.o
+ VTestDriver___024root__DepSet_hbb6e3b65__61.o VTestDriver___024root__DepSet_hbb6e3b65__62.o VTestDrive
+r___024root__DepSet_hbb6e3b65__63.o VTestDriver___024root__DepSet_hbb6e3b65__64.o VTestDriver___024root
+__DepSet_hbb6e3b65__65.o VTestDriver___024root__DepSet_hbb6e3b65__66.o VTestDriver___024root__DepSet_hb
+b6e3b65__67.o VTestDriver___024root__DepSet_hbb6e3b65__68.o VTestDriver___024root__DepSet_hbb6e3b65__69
+.o VTestDriver___024root__DepSet_hbb6e3b65__70.o VTestDriver___024root__DepSet_hbb6e3b65__71.o VTestDri
+ver___024root__DepSet_hbb6e3b65__72.o VTestDriver___024root__DepSet_hbb6e3b65__73.o VTestDriver___024un
+it__DepSet_hf172cd27__0.o VTestDriver__main.o VTestDriver__Dpi.o VTestDriver__ConstPool_0.o VTestDriver
+___024root__Slow.o VTestDriver___024root__DepSet_h662e1026__0__Slow.o VTestDriver___024root__DepSet_hbb
+6e3b65__0__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__1__Slow.o VTestDriver___024root__DepSet_hbb6
+e3b65__2__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__3__Slow.o VTestDriver___024root__DepSet_hbb6e
+3b65__4__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__5__Slow.o VTestDriver___024root__DepSet_hbb6e3
+b65__6__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__7__Slow.o VTestDriver___024root__DepSet_hbb6e3b
+65__8__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__9__Slow.o VTestDriver___024root__DepSet_hbb6e3b6
+5__10__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__11__Slow.o VTestDriver___024root__DepSet_hbb6e3b
+65__12__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__13__Slow.o VTestDriver___024root__DepSet_hbb6e3
+b65__14__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__15__Slow.o VTestDriver___024root__DepSet_hbb6e
+3b65__16__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__17__Slow.o VTestDriver___024root__DepSet_hbb6
+e3b65__18__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__19__Slow.o VTestDriver___024root__DepSet_hbb
+6e3b65__20__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__21__Slow.o VTestDriver___024root__DepSet_hb
+b6e3b65__22__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__23__Slow.o VTestDriver___024root__DepSet_h
+bb6e3b65__24__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__25__Slow.o VTestDriver___024root__DepSet_
+hbb6e3b65__26__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__27__Slow.o VTestDriver___024root__DepSet
+_hbb6e3b65__28__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__29__Slow.o VTestDriver___024root__DepSe
+t_hbb6e3b65__30__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__31__Slow.o VTestDriver___024root__DepS
+et_hbb6e3b65__32__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__33__Slow.o VTestDriver___024root__Dep
+Set_hbb6e3b65__34__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__35__Slow.o VTestDriver___024root__De
+pSet_hbb6e3b65__36__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__37__Slow.o VTestDriver___024root__D
+epSet_hbb6e3b65__38__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__39__Slow.o VTestDriver___024root__
+DepSet_hbb6e3b65__40__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__41__Slow.o VTestDriver___024root_
+_DepSet_hbb6e3b65__42__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__43__Slow.o VTestDriver___024root
+__DepSet_hbb6e3b65__44__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__45__Slow.o VTestDriver___024roo
+t__DepSet_hbb6e3b65__46__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__47__Slow.o VTestDriver___024ro
+ot__DepSet_hbb6e3b65__48__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__49__Slow.o VTestDriver___024r
+oot__DepSet_hbb6e3b65__50__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__51__Slow.o VTestDriver___024
+root__DepSet_hbb6e3b65__52__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__53__Slow.o VTestDriver___02
+4root__DepSet_hbb6e3b65__54__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__55__Slow.o VTestDriver___0
+24root__DepSet_hbb6e3b65__56__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__57__Slow.o VTestDriver___
+024root__DepSet_hbb6e3b65__58__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__59__Slow.o VTestDriver__
+_024root__DepSet_hbb6e3b65__60__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__61__Slow.o VTestDriver_
+__024root__DepSet_hbb6e3b65__62__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__63__Slow.o VTestDriver
+___024root__DepSet_hbb6e3b65__64__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__65__Slow.o VTestDrive
+r___024root__DepSet_hbb6e3b65__66__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__67__Slow.o VTestDriv
+er___024root__DepSet_hbb6e3b65__68__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__69__Slow.o VTestDri
+ver___024root__DepSet_hbb6e3b65__70__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__71__Slow.o VTestDr
+iver___024root__DepSet_hbb6e3b65__72__Slow.o VTestDriver___024root__DepSet_hbb6e3b65__73__Slow.o VTestD
+river___024root__DepSet_hbb6e3b65__74__Slow.o VTestDriver___024unit__Slow.o VTestDriver___024unit__DepS
+et_h44496666__0__Slow.o VTestDriver__Syms.o VTestDriver__Syms__1.o
+/home/aparna/chipyard-graphics/.conda-env/bin/x86_64-conda-linux-gnu-c++    SimDRAM.o SimJTAG.o SimTSI.
+o SimUART.o mm.o mm_dramsim2.o remote_bitbang.o testchip_htif.o testchip_tsi.o uart.o verilated.o veril
+ated_dpi.o verilated_vpi.o verilated_timing.o verilated_threads.o VTestDriver__ALL.a   -L/home/aparna/c
+hipyard-graphics/.conda-env/riscv-tools/lib -Wl,-rpath,/home/aparna/chipyard-graphics/.conda-env/riscv-
+tools/lib -L/home/aparna/chipyard/sims/verilator -L/home/aparna/chipyard/tools/DRAMSim2 -lriscv -lfesvr
+ -ldramsim -L/home/aparna/chipyard/generators/radiance/cyclotron/target/debug -Wl,-rpath,/home/aparna/c
+hipyard/generators/radiance/cyclotron/target/debug -lcyclotron  -pthread -lpthread -latomic   -o /home/
+aparna/chipyard/sims/verilator/simulator-chipyard.harness-GemminiRocketConfig
+rm VTestDriver__ALL.verilator_deplist.tmp
+make[1]: Leaving directory '/home/aparna/chipyard/sims/verilator/generated-src/chipyard.harness.TestHar
+ness.GemminiRocketConfig/chipyard.harness.TestHarness.GemminiRocketConfig'
+if [ "../../generators/gemmini/software/gemmini-rocc-tests/build/bareMetalC/gemma4_decoder_npu-baremeta
+l" != "none" ] && [ ! -f "../../generators/gemmini/software/gemmini-rocc-tests/build/bareMetalC/gemma4_
+decoder_npu-baremetal" ]; then printf "\n\nBinary ../../generators/gemmini/software/gemmini-rocc-tests/
+build/bareMetalC/gemma4_decoder_npu-baremetal not found\n\n"; exit 1; fi
+(set -o pipefail &&  /home/aparna/chipyard/sims/verilator/simulator-chipyard.harness-GemminiRocketConfi
+g \
+        +permissive \
+        +dramsim +dramsim_ini_dir=/home/aparna/chipyard/generators/testchipip/src/main/resources/dramsi
+m2_ini +max-cycles=10000000     \
+        +verbose \
+        +permissive-off \
+        ../../generators/gemmini/software/gemmini-rocc-tests/build/bareMetalC/gemma4_decoder_npu-bareme
+tal \
+         \
+        </dev/null 2> >(spike-dasm > /home/aparna/chipyard/sims/verilator/output/chipyard.harness.TestH
+arness.GemminiRocketConfig/gemma4_decoder_npu-baremetal.out) | tee /home/aparna/chipyard/sims/verilator
+/output/chipyard.harness.TestHarness.GemminiRocketConfig/gemma4_decoder_npu-baremetal.log)
+%Warning: System has stack size 8192 kb which may be too small; suggest 'ulimit -c 15363' or larger   [
+UART] UART0 is here (stdin/stdout).                                                                  [1
+0000001000] %Fatal: TestDriver.v:147: Assertion failed in TOP.TestDriver
+%Error: /home/aparna/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.GemminiRocketCo
+nfig/gen-collateral/TestDriver.v:147: Verilog $stop
+Aborting...
+make: *** [/home/aparna/chipyard/common.mk:379: ../../generators/gemmini/software/gemmini-rocc-tests/bu
+ild/bareMetalC/gemma4_decoder_npu-baremetal.run] Error 255
+(base) aparna@illixr:~/chipyard/sims/verilator$ cd ~/chipyard/sims/verilatorcd ~/chipyard/sims/verilato
+r
+-bash: cd: too many arguments
+(base) aparna@illixr:~/chipyard/sims/verilator$ ./simulator-chipyard.harness-GemminiRocketConfig \
+    +permissive \
+    +dramsim \
+    +dramsim_ini_dir="$HOME/chipyard/generators/testchipip/src/main/resources/dramsim2_ini" \
+    +max-cycles=10000000 \
+    +verbose \
+    +permissive-off \
+    ../../generators/gemmini/software/gemmini-rocc-tests/build/bareMetalC/gemma4_decoder_npu-baremetal%
+Warning: System has stack size 8192 kb which may be too small; suggest 'ulimit -c 15363' or larger
+testing $random e23cbb39
+[UART] UART0 is here (stdin/stdout).
+C0:         19 [1] pc=[0000000000010000] W[r10=0000000000010000][1] R[r 0=0000000000000000] R[r 0=00000
+00000000000] inst=[00000517] DASM(00000517)
+C0:         20 [1] pc=[0000000000010004] W[r10=0000000000010040][1] R[r10=0000000000010000] R[r 0=00000
+00000000000] inst=[04050513] DASM(04050513)
+C0:         21 [1] pc=[0000000000010008] W[r 0=0000000000000000][1] R[r10=0000000000010040] R[r 0=00000
+00000000000] inst=[30551073] DASM(30551073)
+C0:         26 [1] pc=[000000000001000c] W[r 5=800000000094112d][1] R[r 0=0000000000000000] R[r 0=00000
+00000000000] inst=[301022f3] DASM(301022f3)
+C0:         29 [1] pc=[0000000000010010] W[r 5=ffffe00000000025][1] R[r 5=800000000094112d] R[r 0=00000
+00000000000] inst=[4122d293] DASM(4122d293)
+C0:         30 [1] pc=[0000000000010014] W[r 5=0000000000000001][1] R[r 5=ffffe00000000025] R[r 0=00000
+00000000000] inst=[0012f293] DASM(0012f293)
+C0:         31 [1] pc=[0000000000010018] W[r 0=0000000000000000][0] R[r 5=0000000000000001] R[r 0=00000
+00000000000] inst=[00028863] DASM(00028863)
+C0:         32 [1] pc=[000000000001001c] W[r 0=0000000000000202][1] R[r 0=0000000000000000] R[r 0=00000
+00000000000] inst=[30301073] DASM(30301073)
+C0:         37 [1] pc=[0000000000010020] W[r10=0000000000000222][1] R[r 0=0000000000000000] R[r 0=00000
+00000000000] inst=[22200513] DASM(22200513)
+C0:         38 [1] pc=[0000000000010024] W[r 0=0000000000000022][1] R[r10=0000000000000222] R[r 0=00000
+00000000000] inst=[34453073] DASM(34453073)
+C0:         43 [1] pc=[0000000000010028] W[r10=0000000000000008][1] R[r 0=0000000000000000] R[r 0=00000
+00000000000] inst=[00800513] DASM(00800513)
+C0:         44 [1] pc=[000000000001002c] W[r 0=e1b9b4ebe4397452][1] R[r10=0000000000000008] R[r 0=00000
+00000000000] inst=[30451073] DASM(30451073)
+C0:         49 [1] pc=[0000000000010030] W[r 0=8000000a00019800][1] R[r10=0000000000000008] R[r 0=00000
+00000000000] inst=[30052073] DASM(30052073)
+C0:         54 [1] pc=[0000000000010034] W[r 0=0000000000000000][0] R[r 0=0000000000000000] R[r 0=00000
+00000000000] inst=[10500073] DASM(10500073)
+(base) aparna@illixr:~/chipyard/sims/verilator$ cd ~/chipyard/sims/verilator
+
+rm -f "$HOME/gemma4-decoder-npu-final.log"
+
+time ./simulator-chipyard.harness-GemminiRocketConfig \
+  +permissive \
+  +dramsim \
+  +dramsim_ini_dir="$HOME/chipyard-graphics/generators/testchipip/src/main/resources/dramsim2_ini" \
+  +max-cycles=100000000 \
+  +permissive-off \
+  ../../generators/gemmini/software/gemmini-rocc-tests/build/bareMetalC/gemma4_decoder_npu-baremetal \
+  2>&1 | tee "$HOME/gemma4-decoder-npu-final.log"
+*** FAILED ***                       (timeout) after            100000001 simulation cycles
+%Warning: System has stack size 8192 kb which may be too small; suggest 'ulimit -c 15363' or larger
+[UART] UART0 is here (stdin/stdout).
+[100000001000] %Fatal: TestDriver.v:147: Assertion failed in TOP.TestDriver
+%Error: /home/aparna/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.GemminiRocketCo
+nfig/gen-collateral/TestDriver.v:147: Verilog $stop
+Aborting...
+
+real    319m50.113s
+user    319m19.927s
+sys     0m28.949s
+(base) aparna@illixr:~/chipyard/sims/verilator$ cd ~/chipyard/sims/verilator
+
+./simulator-chipyard.harness-GemminiRocketConfig \
+  +permissive \
+  +dramsim \
+  +dramsim_ini_dir="$HOME/chipyard/generators/testchipip/src/main/resources/dramsim2_ini" \
+  +max-cycles=5000000 \
+  +loadmem=../../generators/gemmini/software/gemmini-rocc-tests/build/bareMetalC/gemma4_real_q_verilato
+r-baremetal \
+  +permissive-off \
+  ../../generators/gemmini/software/gemmini-rocc-tests/build/bareMetalC/gemma4_real_q_verilator-baremet
+al
+%Warning: System has stack size 8192 kb which may be too small; suggest 'ulimit -c 15363' or larger
+[UART] UART0 is here (stdin/stdout).
+FAST VERILATOR TEST
+Real Gemma 4 layer-0 Q projection
+X shape: [14, 1536]
+WQ^T shape: [1536, 2048]
+Q shape: [14, 2048]
+
+Starting Gemmini WS Q projection
+Gemmini WS cycles: 800272
+
+Output statistics
+Gemmini: min=-110 max=127 zeros=5546 sat_min=0 sat_max=3 checksum=3095
+Python expected: min=-110 max=127 zeros=5546 sat_min=0 sat_max=3 checksum=3095
+
+Comparison
+Gemmini vs Python expected mismatch count: 0
+
+PASS: Gemmini RTL Q projection matches Python expected output.
+- /home/aparna/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.GemminiRocketConfig/g
+en-collateral/TestDriver.v:158: Verilog $finish
+(base) aparna@illixr:~/chipyard/sims/verilator$ cd ~/chipyard/sims/verilator
+
+./simulator-chipyard.harness-GemminiRocketConfig \
+  +permissive \
+  +dramsim \
+  +dramsim_ini_dir="$HOME/chipyard-graphics/generators/testchipip/src/main/resources/dramsim2_ini" \
+  +max-cycles=5000000 \
+  +loadmem=../../generators/gemmini/software/gemmini-rocc-tests/build/bareMetalC/gemma4_decoder_npu-bar
+emetal \
+  +permissive-off \
+  ../../generators/gemmini/software/gemmini-rocc-tests/build/bareMetalC/gemma4_decoder_npu-baremetal
+%Warning: System has stack size 8192 kb which may be too small; suggest 'ulimit -c 15363' or larger
+[UART] UART0 is here (stdin/stdout).
+Gemma 4 layer-0 integrated Q/K/V + reshape pipeline
+
+Shared input X: [14, 1536]
+Q projection:   [14, 2048]
+K projection:   [14, 256]
+V projection:   [14, 256]
+
+Checking shared input X
+Q input vs K input mismatch count: 0
+Q input vs V input mismatch count: 0
+PASS: Q/K/V share identical input X.
+
+Running Gemmini Q projection
+
+Preparing runtime input RMSNorm + Q/K/V quantization
+Runtime QKV input preparation cycles: 1734239
+Runtime QKV input checksum: -1274 (expected -1274)
+Runtime QKV input mismatch count: 0
+*** FAILED ***                       (timeout) after              5000001 simulation cycles
+[5000001000] %Fatal: TestDriver.v:147: Assertion failed in TOP.TestDriver
+%Error: /home/aparna/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.GemminiRocketCo
+nfig/gen-collateral/TestDriver.v:147: Verilog $stop
+Aborting...
+(base) aparna@illixr:~/chipyard/sims/verilator$ cd ~/chipyard/sims/verilator
+
+./simulator-chipyard.harness-GemminiRocketConfig \
+  +permissive \
+  +dramsim \
+  +dramsim_ini_dir="$HOME/chipyard-graphics/generators/testchipip/src/main/resources/dramsim2_ini" \
+  +max-cycles=20000000 \
+  +loadmem=../../generators/gemmini/software/gemmini-rocc-tests/build/bareMetalC/gemma4_decoder_npu-bar
+emetal \
+  +permissive-off \
+  ../../generators/gemmini/software/gemmini-rocc-tests/build/bareMetalC/gemma4_decoder_npu-baremetal
+%Warning: System has stack size 8192 kb which may be too small; suggest 'ulimit -c 15363' or larger
+[UART] UART0 is here (stdin/stdout).
+Gemma 4 layer-0 integrated Q/K/V + reshape pipeline
+
+Shared input X: [14, 1536]
+Q projection:   [14, 2048]
+K projection:   [14, 256]
+V projection:   [14, 256]
+
+Checking shared input X
+Q input vs K input mismatch count: 0
+Q input vs V input mismatch count: 0
+PASS: Q/K/V share identical input X.
+
+Running Gemmini Q projection
+
+Preparing runtime input RMSNorm + Q/K/V quantization
+Runtime QKV input preparation cycles: 1734239
+Runtime QKV input checksum: -1274 (expected -1274)
+Runtime QKV input mismatch count: 0
+Q cycles: 803089
+
+Running Gemmini K projection
+K cycles: 88276
+
+Running Gemmini V projection
+V cycles: 86386
+
+Projection comparisons
+Q projection mismatch count: 0
+K projection mismatch count: 0
+V projection mismatch count: 0
+
+Starting CPU Q/K/V reshape
+CPU reshape cycles: 62495
+
+Reshaped output shapes
+Q: [8, 14, 256]
+K: [1, 14, 256]
+V: [1, 14, 256]
+
+Reshape comparisons
+Q reshape mismatch count: 0
+K reshape mismatch count: 0
+V reshape mismatch count: 0
+
+Starting runtime Q RMSNorm + RoPE
+Runtime Q RMSNorm + RoPE cycles: 3394327
+runtime Q mismatch h=0 t=0 d=21: actual=8 expected=12
+runtime Q mismatch h=0 t=0 d=23: actual=-8 expected=-12
+runtime Q mismatch h=0 t=0 d=30: actual=-4 expected=0
+runtime Q mismatch h=0 t=0 d=32: actual=33 expected=32
+runtime Q mismatch h=0 t=0 d=43: actual=0 expected=-4
+runtime Q mismatch h=0 t=0 d=45: actual=-8 expected=-4
+runtime Q mismatch h=0 t=0 d=47: actual=0 expected=4
+runtime Q mismatch h=0 t=0 d=54: actual=-4 expected=0
+runtime Q mismatch h=0 t=0 d=62: actual=-20 expected=-24
+runtime Q mismatch h=0 t=0 d=72: actual=8 expected=4
+Runtime Q RoPE checksum: 4760 (expected 5082)
+Runtime Q RoPE mismatch count: 4355
+
+
+Starting runtime K RMSNorm + RoPE
+Runtime K RMSNorm + RoPE cycles: 422781
+runtime K mismatch t=0 d=1: actual=0 expected=2
+runtime K mismatch t=0 d=11: actual=0 expected=2
+runtime K mismatch t=0 d=23: actual=-2 expected=0
+runtime K mismatch t=0 d=25: actual=2 expected=0
+runtime K mismatch t=0 d=41: actual=2 expected=0
+runtime K mismatch t=0 d=62: actual=-3 expected=-2
+runtime K mismatch t=0 d=68: actual=-2 expected=0
+runtime K mismatch t=0 d=76: actual=0 expected=-2
+runtime K mismatch t=0 d=81: actual=2 expected=0
+runtime K mismatch t=0 d=83: actual=-2 expected=-3
+Runtime K RoPE checksum: -567 (expected -643)
+Runtime K RoPE mismatch count: 857
+
+
+Starting runtime V RMSNorm
+Runtime V RMSNorm cycles: 293846
+runtime V mismatch t=0 d=7: actual=30 expected=31
+runtime V mismatch t=0 d=14: actual=0 expected=1
+runtime V mismatch t=0 d=16: actual=0 expected=-1
+runtime V mismatch t=0 d=22: actual=0 expected=1
+runtime V mismatch t=0 d=24: actual=-1 expected=0
+runtime V mismatch t=0 d=25: actual=1 expected=0
+runtime V mismatch t=0 d=37: actual=0 expected=-1
+runtime V mismatch t=0 d=47: actual=-8 expected=-7
+runtime V mismatch t=0 d=50: actual=0 expected=-1
+runtime V mismatch t=0 d=54: actual=8 expected=7
+Runtime V norm checksum: 2159 (expected 2035)
+Runtime V norm mismatch count: 684
+
+
+Starting QK^T attention matmul
+Gemmini QK^T cycles: 12940
+QK mismatch h=0 i=0 j=0: gemmini=7473 expected=7558
+QK mismatch h=0 i=0 j=1: gemmini=2004 expected=2256
+QK mismatch h=0 i=0 j=2: gemmini=4079 expected=4284
+QK mismatch h=0 i=0 j=3: gemmini=4555 expected=4616
+QK mismatch h=0 i=0 j=4: gemmini=4721 expected=4802
+QK mismatch h=0 i=0 j=5: gemmini=3094 expected=3373
+QK mismatch h=0 i=0 j=6: gemmini=4006 expected=4157
+QK mismatch h=0 i=0 j=7: gemmini=3954 expected=4033
+QK mismatch h=0 i=0 j=8: gemmini=4011 expected=4159
+QK mismatch h=0 i=0 j=9: gemmini=5845 expected=6054
+QK^T mismatch count: 1562
+QK^T sample [head 0][0][0]: Expected=7558 Gemmini=7473
+
+
+Starting CPU causal FP32 softmax
+CPU softmax cycles: 240384
+Runtime attention mismatch h=0 i=2 j=0: runtime=120 expected=118
+Runtime attention mismatch h=0 i=2 j=1: runtime=3 expected=5
+Runtime attention mismatch h=0 i=3 j=0: runtime=105 expected=106
+Runtime attention mismatch h=0 i=3 j=1: runtime=10 expected=9
+Runtime attention mismatch h=0 i=4 j=1: runtime=7 expected=8
+Runtime attention mismatch h=0 i=5 j=0: runtime=65 expected=69
+Runtime attention mismatch h=0 i=5 j=2: runtime=37 expected=31
+Runtime attention mismatch h=0 i=5 j=3: runtime=13 expected=15
+Runtime attention mismatch h=0 i=6 j=0: runtime=74 expected=78
+Runtime attention mismatch h=0 i=6 j=1: runtime=2 expected=1
+Runtime attention mismatch count: 334
+Runtime attention sample [head 0][13]: 10 3 5 18 4 1 1 2 2 47 31 1 1 1
+
+
+Starting Attention x V matmul
+Gemmini Attention x V cycles: 19126
+Attention x V mismatch h=0 i=0 d=7: gemmini=3810 expected=3937
+Attention x V mismatch h=0 i=0 d=14: gemmini=0 expected=127
+Attention x V mismatch h=0 i=0 d=16: gemmini=0 expected=-127
+Attention x V mismatch h=0 i=0 d=22: gemmini=0 expected=127
+Attention x V mismatch h=0 i=0 d=24: gemmini=-127 expected=0
+Attention x V mismatch h=0 i=0 d=25: gemmini=127 expected=0
+Attention x V mismatch h=0 i=0 d=37: gemmini=0 expected=-127
+Attention x V mismatch h=0 i=0 d=47: gemmini=-1016 expected=-889
+Attention x V mismatch h=0 i=0 d=50: gemmini=0 expected=-127
+Attention x V mismatch h=0 i=0 d=54: gemmini=1016 expected=889
+*** FAILED ***                       (timeout) after             20000001 simulation cycles
+[20000001000] %Fatal: TestDriver.v:147: Assertion failed in TOP.TestDriver
+%Error: /home/aparna/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.GemminiRocketCo
+nfig/gen-collateral/TestDriver.v:147: Verilog $stop
+Aborting...
+(base) aparna@illixr:~/chipyard/sims/verilator$ cd ~/chipyard/sims/verilator
+
+./simulator-chipyard.harness-GemminiRocketConfig \
+  +permissive \
+  +dramsim \
+  +dramsim_ini_dir="$HOME/chipyard-graphics/generators/testchipip/src/main/resources/dramsim2_ini" \
+  +max-cycles=8000000 \
+  +loadmem=../../generators/gemmini/software/gemmini-rocc-tests/build/bareMetalC/gemma4_decoder_npu-bar
+emetal \
+  +permissive-off \
+  ../../generators/gemmini/software/gemmini-rocc-tests/build/bareMetalC/gemma4_decoder_npu-baremetal
+%Warning: System has stack size 8192 kb which may be too small; suggest 'ulimit -c 15363' or larger
+[UART] UART0 is here (stdin/stdout).
+Gemma 4 layer-0 integrated Q/K/V + reshape pipeline
+
+Shared input X: [14, 1536]
+Q projection:   [14, 2048]
+K projection:   [14, 256]
+V projection:   [14, 256]
+
+Checking shared input X
+Q input vs K input mismatch count: 0
+Q input vs V input mismatch count: 0
+PASS: Q/K/V share identical input X.
+
+Running Gemmini Q projection
+
+Preparing runtime input RMSNorm + Q/K/V quantization
+Runtime QKV input preparation cycles: 2251936
+Runtime QKV input checksum: -1274 (expected -1274)
+Runtime QKV input mismatch count: 0
+Q cycles: 802091
+
+Running Gemmini K projection
+K cycles: 87089
+
+Running Gemmini V projection
+V cycles: 84603
+
+*** FAILED ***                       (timeout) after              8000001 simulation cycles
+[8000001000] %Fatal: TestDriver.v:147: Assertion failed in TOP.TestDriver
+%Error: /home/aparna/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.GemminiRocketCo
+nfig/gen-collateral/TestDriver.v:147: Verilog $stop
+Aborting...
+(base) aparna@illixr:~/chipyard/sims/verilator$ cd ~/chipyard/sims/verilator
+
+ulimit -s unlimited
+
+./simulator-chipyard.harness-GemminiRocketConfig \
+  +permissive \
+  +dramsim \
+  +dramsim_ini_dir="$HOME/chipyard/generators/testchipip/src/main/resources/dramsim2_ini" \
+  +loadmem="$HOME/chipyard/generators/gemmini/software/gemmini-rocc-tests/bareMetalC/gemma4_decoder_npu
+-baremetal" \
+  +max-cycles=8000000 \
+  +permissive-off \
+  "$HOME/chipyard/generators/gemmini/software/gemmini-rocc-tests/bareMetalC/gemma4_decoder_npu-baremeta
+l"
+[UART] UART0 is here (stdin/stdout).
+Gemma 4 layer-0 integrated Q/K/V + reshape pipeline
+
+Shared input X: [14, 1536]
+Q projection:   [14, 2048]
+K projection:   [14, 256]
+V projection:   [14, 256]
+
+Checking shared input X
+Q input vs K input mismatch count: 0
+Q input vs V input mismatch count: 0
+PASS: Q/K/V share identical input X.
+
+Running Gemmini Q projection
+
+Preparing runtime input RMSNorm + Q/K/V quantization
+Runtime QKV input preparation cycles: 1734239
+Runtime QKV input checksum: -1274 (expected -1274)
+Runtime QKV input mismatch count: 0
+Q cycles: 803089
+
+Running Gemmini K projection
+K cycles: 88276
+
+Running Gemmini V projection
+V cycles: 86386
+
+Projection comparisons
+Q projection mismatch count: 0
+K projection mismatch count: 0
+V projection mismatch count: 0
+
+Starting CPU Q/K/V reshape
+CPU reshape cycles: 62495
+
+Reshaped output shapes
+Q: [8, 14, 256]
+K: [1, 14, 256]
+V: [1, 14, 256]
+
+*** FAILED ***                       (timeout) after              8000001 simulation cycles
+[8000001000] %Fatal: TestDriver.v:147: Assertion failed in TOP.TestDriver
+%Error: /home/aparna/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.GemminiRocketCo
+nfig/gen-collateral/TestDriver.v:147: Verilog $stop
+Aborting...
+(base) aparna@illixr:~/chipyard/sims/verilator$ cd ~/chipyard/sims/verilator
+
+ulimit -s unlimited
+
+./simulator-chipyard.harness-GemminiRocketConfig \
+  +permissive \
+  +dramsim \
+  +dramsim_ini_dir="$HOME/chipyard/generators/testchipip/src/main/resources/dramsim2_ini" \
+  +loadmem="$HOME/chipyard/generators/gemmini/software/gemmini-rocc-tests/bareMetalC/gemma4_decoder_npu
+-baremetal" \
+  +max-cycles=30000000 \
+  +permissive-off \
+  "$HOME/chipyard/generators/gemmini/software/gemmini-rocc-tests/bareMetalC/gemma4_decoder_npu-baremeta
+l"
+[UART] UART0 is here (stdin/stdout).
+Gemma 4 layer-0 integrated Q/K/V + reshape pipeline
+
+Shared input X: [14, 1536]
+Q projection:   [14, 2048]
+K projection:   [14, 256]
+V projection:   [14, 256]
+
+Checking shared input X
+Q input vs K input mismatch count: 0
+Q input vs V input mismatch count: 0
+PASS: Q/K/V share identical input X.
+
+Running Gemmini Q projection
+
+Preparing runtime input RMSNorm + Q/K/V quantization
+Runtime QKV input preparation cycles: 1734239
+Runtime QKV input checksum: -1274 (expected -1274)
+Runtime QKV input mismatch count: 0
+Q cycles: 803089
+
+Running Gemmini K projection
+K cycles: 88276
+
+Running Gemmini V projection
+V cycles: 86386
+
+Projection comparisons
+Q projection mismatch count: 0
+K projection mismatch count: 0
+V projection mismatch count: 0
+
+Starting CPU Q/K/V reshape
+CPU reshape cycles: 62495
+
+Reshaped output shapes
+Q: [8, 14, 256]
+K: [1, 14, 256]
+V: [1, 14, 256]
+
+Reshape comparisons
+Q reshape mismatch count: 0
+K reshape mismatch count: 0
+V reshape mismatch count: 0
+
+Starting runtime Q RMSNorm + RoPE
+Runtime Q RMSNorm + RoPE cycles: 3394327
+Runtime Q RoPE checksum: 4760 (expected 4760)
+Runtime Q RoPE mismatch count: 0
+
+
+Starting runtime K RMSNorm + RoPE
+Runtime K RMSNorm + RoPE cycles: 422855
+Runtime K RoPE checksum: -567 (expected -567)
+Runtime K RoPE mismatch count: 0
+
+
+Starting runtime V RMSNorm
+Runtime V RMSNorm cycles: 293885
+Runtime V norm checksum: 2159 (expected 2159)
+Runtime V norm mismatch count: 0
+
+
+Starting QK^T attention matmul
+Gemmini QK^T cycles: 12919
+QK^T mismatch count: 0
+QK^T sample [head 0][0][0]: Expected=7473 Gemmini=7473
+
+
+Starting CPU causal FP32 softmax
+CPU softmax cycles: 240471
+Runtime attention mismatch count: 0
+Runtime attention sample [head 0][13]: 10 3 5 18 4 1 1 2 2 47 31 1 1 1
+
+
+Starting Attention x V matmul
+Gemmini Attention x V cycles: 19066
+Attention x V mismatch count: 0
+Attention x V sample [head 0][0][0]: Expected=0 Gemmini=0
+
+
+Preparing runtime O projection input
+Runtime O input preparation cycles: 1334658
+Runtime O input checksum: 19523 (expected 19523)
+Runtime O input mismatch count: 0
+
+Starting Gemmini O projection
+Gemmini O projection cycles: 819553
+Runtime O output checksum: 820 (expected 820)
+Runtime O projection mismatch count: 0
+Runtime O projection sample [0][0]: Expected=-3 Gemmini=-3
+
+
+Preparing runtime post-attention/residual/pre-FFN path
+*** FAILED ***                       (timeout) after             30000001 simulation cycles
+[30000001000] %Fatal: TestDriver.v:147: Assertion failed in TOP.TestDriver
+%Error: /home/aparna/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.GemminiRocketCo
+nfig/gen-collateral/TestDriver.v:147: Verilog $stop
+Aborting...
+(base) aparna@illixr:~/chipyard/sims/verilator$ cd ~/chipyard/sims/verilator
+
+ulimit -s unlimited
+
+./simulator-chipyard.harness-GemminiRocketConfig \
+  +permissive \
+  +dramsim \
+  +dramsim_ini_dir="$HOME/chipyard/generators/testchipip/src/main/resources/dramsim2_ini" \
+  +loadmem="$HOME/chipyard/generators/gemmini/software/gemmini-rocc-tests/bareMetalC/gemma4_decoder_npu
+-baremetal" \
+  +max-cycles=500000000 \
+  +permissive-off \
+  "$HOME/chipyard/generators/gemmini/software/gemmini-rocc-tests/bareMetalC/gemma4_decoder_npu-baremeta
+l"
+[UART] UART0 is here (stdin/stdout).
+Gemma 4 layer-0 integrated Q/K/V + reshape pipeline
+
+Shared input X: [14, 1536]
+Q projection:   [14, 2048]
+K projection:   [14, 256]
+V projection:   [14, 256]
+
+Checking shared input X
+Q input vs K input mismatch count: 0
+Q input vs V input mismatch count: 0
+PASS: Q/K/V share identical input X.
+
+Running Gemmini Q projection
+
+Preparing runtime input RMSNorm + Q/K/V quantization
+Runtime QKV input preparation cycles: 1734239
+Runtime QKV input checksum: -1274 (expected -1274)
+Runtime QKV input mismatch count: 0
+Q cycles: 803089
+
+Running Gemmini K projection
+K cycles: 88276
+
+Running Gemmini V projection
+V cycles: 86386
+
+Projection comparisons
+Q projection mismatch count: 0
+K projection mismatch count: 0
+V projection mismatch count: 0
+
+Starting CPU Q/K/V reshape
+CPU reshape cycles: 62495
+
+Reshaped output shapes
+Q: [8, 14, 256]
+K: [1, 14, 256]
+V: [1, 14, 256]
+
+Reshape comparisons
+Q reshape mismatch count: 0
+K reshape mismatch count: 0
+V reshape mismatch count: 0
+
+Starting runtime Q RMSNorm + RoPE
+Runtime Q RMSNorm + RoPE cycles: 3394327
+Runtime Q RoPE checksum: 4760 (expected 4760)
+Runtime Q RoPE mismatch count: 0
+
+
+Starting runtime K RMSNorm + RoPE
+Runtime K RMSNorm + RoPE cycles: 422855
+Runtime K RoPE checksum: -567 (expected -567)
+Runtime K RoPE mismatch count: 0
+
+
+Starting runtime V RMSNorm
+Runtime V RMSNorm cycles: 293885
+Runtime V norm checksum: 2159 (expected 2159)
+Runtime V norm mismatch count: 0
+
+
+Starting QK^T attention matmul
+Gemmini QK^T cycles: 12919
+QK^T mismatch count: 0
+QK^T sample [head 0][0][0]: Expected=7473 Gemmini=7473
+
+
+Starting CPU causal FP32 softmax
+CPU softmax cycles: 240471
+Runtime attention mismatch count: 0
+Runtime attention sample [head 0][13]: 10 3 5 18 4 1 1 2 2 47 31 1 1 1
+
+
+Starting Attention x V matmul
+Gemmini Attention x V cycles: 19066
+Attention x V mismatch count: 0
+Attention x V sample [head 0][0][0]: Expected=0 Gemmini=0
+
+
+Preparing runtime O projection input
+Runtime O input preparation cycles: 1334658
+Runtime O input checksum: 19523 (expected 19523)
+Runtime O input mismatch count: 0
+
+Starting Gemmini O projection
+Gemmini O projection cycles: 819553
+Runtime O output checksum: 820 (expected 820)
+Runtime O projection mismatch count: 0
+Runtime O projection sample [0][0]: Expected=-3 Gemmini=-3
+
+
+Preparing runtime post-attention/residual/pre-FFN path
+Runtime FFN input preparation cycles: 3513730
+Runtime FFN input checksum: 2151 (expected 2151)
+Runtime FFN-path mismatch count: 0
+
+Running runtime Gate projection on Gemmini
+Runtime Gate projection cycles: 2448935
+
+Running runtime Up projection on Gemmini
+Runtime Up projection cycles: 2447588
+Runtime Gate checksum: -729534 (expected -729534)
+Runtime Up checksum: -3445 (expected -3445)
+Runtime Gate mismatches: 0
+Runtime Up mismatches: 0
+
+Preparing runtime Down input
+Runtime Down input preparation cycles: 29356533
+Runtime GELU x Up mismatches: 0
+Runtime Down input checksum: -32 (expected -32)
+Runtime Down input mismatches: 0
+
+Running runtime Down projection on Gemmini
+Runtime Down projection cycles: 2562459
+Runtime Down checksum: -2789 (expected -2789)
+Runtime Down mismatches: 0
+
+Preparing runtime post-FFN path
+Runtime post-FFN preparation cycles: 2517654
+Runtime post-FFN norm mismatches: 0
+Runtime second residual mismatches: 0
+Runtime per-layer Gate X checksum: 342 (expected 342)
+Runtime per-layer Gate X mismatches: 0
+Runtime post-FFN mismatch count: 0
+
+Running runtime per-layer Gate on Gemmini
+Runtime per-layer Gate cycles: 89913
+Runtime per-layer Gate checksum: 6429 (expected 6429)
+Runtime per-layer Gate mismatches: 0
+
+Preparing runtime per-layer product
+Runtime per-layer product preparation cycles: 1156823
+Runtime per-layer projection X checksum: -237 (expected -237)
+Runtime per-layer projection X mismatches: 0
+Runtime per-layer product mismatch count: 0
+
+Running runtime per-layer projection on Gemmini
+Runtime per-layer projection cycles: 77775
+Runtime per-layer projection checksum: 1397 (expected 1397)
+Runtime per-layer projection mismatches: 0
+
+Preparing final runtime decoder output
+Final runtime decoder-tail cycles: 1898250
+Post-per-layer RMSNorm mismatches: 0
+Pre-scalar mismatches: 0
+Final runtime mismatches: 0 / 21504
+Final runtime checksum: %.12g
+Expected runtime checksum: %.12g
+Final runtime max abs error: %.9g
+Final runtime mean abs error: %.9g
+Final runtime decoder-tail mismatch count: 0
+
+PASS: integrated Q/K/V -> RMSNorm/RoPE -> QK^T -> causal softmax -> Attention x V -> O projection match
+es quantized-path references.
+- /home/aparna/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.GemminiRocketConfig/g
+en-collateral/TestDriver.v:158: Verilog $finish
+(base) aparna@illixr:~/chipyard/sims/verilator$
