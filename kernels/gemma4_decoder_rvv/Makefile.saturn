@@ -1,0 +1,17 @@
+# Saturn benchmark integration for Gemma 4 decoder
+#
+# Add vec-gemma4-decoder to the Saturn benchmarks "bmarks" list.
+#
+# This rule links the decoder source, RVV assembly kernels,
+# and embedded tensor object files.
+
+vec-gemma4-decoder.riscv: \
+        $(src_dir)/vec-gemma4-decoder/main.c \
+        $(wildcard $(src_dir)/vec-gemma4-decoder/*.S) \
+        $(wildcard $(src_dir)/vec-gemma4-decoder/*.o) \
+        $(wildcard $(src_dir)/common/*)
+	$(RISCV_GCC) $(incs) $(RISCV_GCC_OPTS) -o $@ \
+		$(src_dir)/vec-gemma4-decoder/main.c \
+		$(wildcard $(src_dir)/vec-gemma4-decoder/*.S) \
+		$(wildcard $(src_dir)/vec-gemma4-decoder/*.o) \
+		$(COMMON_SRCS) $(RISCV_LINK_OPTS)
