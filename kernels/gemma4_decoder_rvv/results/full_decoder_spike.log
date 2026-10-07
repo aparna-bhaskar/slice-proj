@@ -1,0 +1,204 @@
+Gemma 4 Saturn RVV decoder baseline
+Running runtime input RMSNorm...
+Input RMSNorm elements: 21504
+Input RMSNorm mismatches: 0 / 21504
+Input RMSNorm max abs error bits: 0x00000000
+PASS: runtime input RMSNorm exactly matches CPU reference.
+Running real Gemma Q projection...
+Q elements: 28672
+Q mismatches: 21 / 28672
+Q errors > 0.5: 0 / 28672
+Q max abs error bits: 0x3f000000
+PASS: Saturn Q projection matches CPU reference within 0.5 tolerance.
+Running Q RMSNorm...
+Q RMSNorm elements: 28672
+Q RMSNorm mismatches: 29 / 28672
+Q RMSNorm errors > 0.5: 0 / 28672
+Q RMSNorm max abs error bits: 0x3c800000
+PASS: Q RMSNorm matches CPU reference within 0.5 tolerance.
+Running real Gemma K projection...
+K elements: 3584
+K mismatches: 0 / 3584
+K errors > 0.5: 0 / 3584
+K max abs error bits: 0x00000000
+PASS: Saturn K projection matches CPU reference within 0.5 tolerance.
+Running K RMSNorm...
+K RMSNorm elements: 3584
+K RMSNorm mismatches: 1311 / 3584
+K RMSNorm errors > 0.5: 0 / 3584
+K RMSNorm max abs error bits: 0x3c000000
+PASS: K RMSNorm matches CPU reference within 0.5 tolerance.
+Running Q RoPE...
+Q RoPE elements: 28672
+Q RoPE mismatches: 4596 / 28672
+Q RoPE errors > 0.5: 0 / 28672
+Q RoPE max abs error bits: 0x3d800000
+PASS: Q RoPE matches CPU reference within 0.5 tolerance.
+Running K RoPE...
+K RoPE elements: 3584
+K RoPE mismatches: 1549 / 3584
+K RoPE errors > 0.5: 0 / 3584
+K RoPE max abs error bits: 0x3c000000
+PASS: K RoPE matches CPU reference within 0.5 tolerance.
+Running attention QK^T...
+Attention score elements: 1568
+Attention score mismatches: 1568 / 1568
+Attention score errors > 0.5: 0 / 1568
+Attention score max abs error bits: 0x3db2a880
+PASS: attention QK^T matches CPU reference within 0.5 tolerance.
+Running real Gemma V projection...
+V elements: 3584
+V mismatches: 0 / 3584
+V errors > 0.5: 0 / 3584
+V max abs error bits: 0x00000000
+PASS: Saturn V projection matches scalar reference within 0.5 tolerance.
+Running V RMSNorm...
+V RMSNorm elements: 3584
+V RMSNorm mismatches: 1520 / 3584
+V RMSNorm errors > 0.5: 0 / 3584
+V RMSNorm max abs error bits: 0x3c800000
+PASS: V RMSNorm matches CPU reference within 0.5 tolerance.
+Running attention mask + softmax...
+Masked attention score elements: 1568
+Masked attention score mismatches: 840 / 1568
+Masked attention score errors > 0.5: 0 / 1568
+Masked attention score max abs error bits: 0x3db05500
+PASS: masked attention scores match CPU reference within 0.5 tolerance.
+Attention weight elements: 1568
+Attention weight mismatches: 537 / 1568
+Attention weight errors > 0.5: 0 / 1568
+Attention weight max abs error bits: 0x3c400000
+PASS: attention weights match CPU reference within 0.5 tolerance.
+Running attention weights x V...
+Attention output elements: 28672
+Attention output mismatches: 17439 / 28672
+Attention output errors > 0.5: 0 / 28672
+Attention output max abs error bits: 0x3dc00000
+PASS: attention weights x V matches CPU reference within 0.5 tolerance.
+Running real Gemma O projection...
+O projection elements: 21504
+O projection mismatches: 13726 / 21504
+O projection errors > 0.5: 0 / 21504
+O projection max abs error bits: 0x3e000000
+PASS: Saturn O projection matches CPU reference within 0.5 tolerance.
+Running O projection golden-attention-input diagnostic...
+Golden-input O projection mismatches: 12261 / 21504
+Golden-input O projection errors > 0.5: 0 / 21504
+Golden-input O projection max abs error bits: 0x3e000000
+Running post-attention RMSNorm SGEMM-only diagnostic...
+SGEMM-only RMSNorm mismatches: 12478 / 21504
+SGEMM-only RMSNorm errors > 0.5: 46 / 21504
+SGEMM-only RMSNorm max abs error bits: 0x41000000
+Running post-attention RMSNorm golden-input diagnostic...
+Golden-input RMSNorm mismatches: 0 / 21504
+Golden-input RMSNorm errors > 0.5: 0 / 21504
+Golden-input RMSNorm max abs error bits: 0x00000000
+Running post-attention RMSNorm...
+Post-attention RMSNorm elements: 21504
+Post-attention RMSNorm mismatches: 13841 / 21504
+Post-attention RMSNorm errors > 0.5: 54 / 21504
+Post-attention RMSNorm max abs error bits: 0x41000000
+Post-attention RMSNorm per-row diagnostic:
+row 0: over=0 max=0x3f000000 runtime_inv=0x3f263769 ref_inv=0x3f263a66
+row 1: over=0 max=0x3e800000 runtime_inv=0x3f261e36 ref_inv=0x3f261cae
+row 2: over=0 max=0x3e800000 runtime_inv=0x3f2bcd64 ref_inv=0x3f2bc48a
+row 3: over=4 max=0x41000000 runtime_inv=0x3f30ee13 ref_inv=0x3f30c14c
+row 4: over=6 max=0x41000000 runtime_inv=0x3f347162 ref_inv=0x3f34b27b
+row 5: over=4 max=0x41000000 runtime_inv=0x3efffe84 ref_inv=0x3f005944
+row 6: over=6 max=0x40000000 runtime_inv=0x3ef40d8a ref_inv=0x3ef42945
+row 7: over=2 max=0x3f800000 runtime_inv=0x3f0f571f ref_inv=0x3f0f46a5
+row 8: over=10 max=0x41000000 runtime_inv=0x3f396f0e ref_inv=0x3f38f2e4
+row 9: over=5 max=0x41000000 runtime_inv=0x3f250284 ref_inv=0x3f246dcf
+row 10: over=2 max=0x40000000 runtime_inv=0x3f3b79a2 ref_inv=0x3f3b9120
+row 11: over=2 max=0x41000000 runtime_inv=0x3f17580f ref_inv=0x3f17930b
+row 12: over=3 max=0x40000000 runtime_inv=0x3f398358 ref_inv=0x3f396552
+row 13: over=10 max=0x3fc00000 runtime_inv=0x3f3e54c5 ref_inv=0x3f3e416c
+NOTE: post-attention RMSNorm exceeds the fixed 0.5 CPU-reference tolerance.
+Diagnostic isolation shows this is dominated by Saturn O-projection numerical divergence; continuing end-to-end propagation.
+Running first residual add...
+First residual elements: 21504
+First residual mismatches: 9627 / 21504
+First residual errors > 0.5: 54 / 21504
+First residual max abs error bits: 0x41000000
+Running pre-FFN RMSNorm...
+Pre-FFN RMSNorm elements: 21504
+Pre-FFN RMSNorm mismatches: 11366 / 21504
+Pre-FFN RMSNorm errors > 0.5: 0 / 21504
+Pre-FFN RMSNorm max abs error bits: 0x3e000000
+Running MLP gate projection...
+Gate projection elements: 86016
+Gate projection mismatches: 53755 / 86016
+Gate projection errors > 0.5: 0 / 86016
+Gate projection max abs error bits: 0x3dc00000
+Running MLP up projection...
+Up projection elements: 86016
+Up projection mismatches: 56761 / 86016
+Up projection errors > 0.5: 0 / 86016
+Up projection max abs error bits: 0x3d800000
+Running GELU(gate) x up...
+Gate x Up elements: 86016
+Gate x Up mismatches: 67957 / 86016
+Gate x Up errors > 0.5: 1 / 86016
+Gate x Up max abs error bits: 0x3f400000
+Gate x Up worst index: 81253
+Gate x Up worst gate bits: 0x409e0000
+Gate x Up worst up bits: 0xc0f30000
+Gate x Up worst runtime bits: 0xc2160000
+Gate x Up worst reference bits: 0xc2190000
+Running Gate x Up golden-input diagnostic...
+Gate x Up golden-input mismatches: 23691 / 86016
+Gate x Up golden-input errors > 0.5: 0 / 86016
+Gate x Up golden-input max abs error bits: 0x3e000000
+Running MLP down projection...
+Down projection elements: 21504
+Down projection mismatches: 14624 / 21504
+Down projection errors > 0.5: 0 / 21504
+Down projection max abs error bits: 0x3ec00000
+Running post-FFN RMSNorm...
+Post-FFN RMSNorm elements: 21504
+Post-FFN RMSNorm mismatches: 13618 / 21504
+Post-FFN RMSNorm errors > 0.5: 48 / 21504
+Post-FFN RMSNorm max abs error bits: 0x40100000
+Running post-FFN RMSNorm golden-input diagnostic...
+Post-FFN golden-input mismatches: 0 / 21504
+Post-FFN golden-input errors > 0.5: 0 / 21504
+Post-FFN golden-input max abs error bits: 0x00000000
+Running second residual add...
+Second residual elements: 21504
+Second residual mismatches: 13005 / 21504
+Second residual errors > 0.5: 119 / 21504
+Second residual max abs error bits: 0x41000000
+Running per-layer input gate projection...
+Per-layer gate elements: 3584
+Per-layer gate mismatches: 2516 / 3584
+Per-layer gate errors > 0.5: 0 / 3584
+Per-layer gate max abs error bits: 0x3cc00000
+Running GELU(per-layer gate) x per-layer input...
+Per-layer product elements: 3584
+Per-layer product mismatches: 2478 / 3584
+Per-layer product errors > 0.5: 0 / 3584
+Per-layer product max abs error bits: 0x3e000000
+Running per-layer projection...
+Per-layer projection elements: 21504
+Per-layer projection mismatches: 15590 / 21504
+Per-layer projection errors > 0.5: 0 / 21504
+Per-layer projection max abs error bits: 0x3d800000
+Running post-per-layer RMSNorm...
+Post-per-layer RMSNorm elements: 21504
+Post-per-layer RMSNorm mismatches: 14258 / 21504
+Post-per-layer RMSNorm errors > 0.5: 0 / 21504
+Post-per-layer RMSNorm max abs error bits: 0x3e900000
+Running final residual add...
+Running final layer scalar multiply...
+Layer scalar bits: 0x3c920000
+========================================
+FINAL SATURN DECODER LAYER COMPARISON
+========================================
+Elements: 21504
+Mismatches: 13067 / 21504
+Errors > 0.5: 0 / 21504
+Max abs error bits: 0x3e800000
+Mean abs error bits: 0x3a6fee8a
+Final checksum integer part: 71
+Reference checksum integer part: 70
+========================================
