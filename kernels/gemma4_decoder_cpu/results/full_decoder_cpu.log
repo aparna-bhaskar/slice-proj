@@ -1,0 +1,298 @@
+Gemma 4 decoder CPU baseline
+Running input RMSNorm...
+
+Input RMSNorm comparison
+Elements:       21504
+Max abs error:  0
+Mean abs error: 0
+Worst index:    0
+C output:       -10.5625
+PyTorch:        -10.5625
+
+Running Q projection...
+Running K projection...
+Running V projection...
+
+Q projection comparison
+Elements:       28672
+Mismatches:     21
+Max abs error:  0.5
+Mean abs error: 3.53466187e-05
+Worst index:    26092
+C output:       109
+PyTorch:        108.5
+
+K projection comparison
+Elements:       3584
+Mismatches:     1260
+Max abs error:  2
+Mean abs error: 0.0238700254
+Worst index:    843
+C output:       464
+PyTorch:        462
+
+V projection comparison
+Elements:       3584
+Mismatches:     1604
+Max abs error:  0.5
+Mean abs error: 0.0232137101
+Worst index:    1260
+C output:       -74.5
+PyTorch:        -74
+
+Running Q RMSNorm...
+Running K RMSNorm...
+Running V RMSNorm...
+
+Q RMSNorm comparison
+Elements:       28672
+Mismatches:     29
+Max abs error:  0.015625
+Mean abs error: 2.02083694e-06
+Worst index:    26092
+C output:       2.765625
+PyTorch:        2.75
+
+K RMSNorm comparison
+Elements:       3584
+Mismatches:     1311
+Max abs error:  0.0078125
+Mean abs error: 9.8660422e-05
+Worst index:    1867
+C output:       0.76953125
+PyTorch:        0.77734375
+
+V RMSNorm comparison
+Elements:       3584
+Mismatches:     1520
+Max abs error:  0.015625
+Mean abs error: 0.000747698891
+Worst index:    406
+C output:       2.09375
+PyTorch:        2.078125
+
+Running Q RoPE...
+Running K RoPE...
+
+Q RoPE comparison
+Elements:       28672
+Mismatches:     4596
+Max abs error:  0.0625
+Mean abs error: 0.000398668043
+Worst index:    4864
+C output:       -9
+PyTorch:        -8.9375
+
+K RoPE comparison
+Elements:       3584
+Mismatches:     1549
+Max abs error:  0.0078125
+Mean abs error: 0.000135168965
+Worst index:    1867
+C output:       0.76953125
+PyTorch:        0.77734375
+
+Running QK^T attention...
+
+QK^T attention comparison
+Elements:       1568
+Mismatches:     1568
+Max abs error:  0.0872354507
+Mean abs error: 0.00720861143
+Worst index:    288
+C output:       -7.38629341
+PyTorch ref:    -7.29905796
+
+Running attention mask + softmax...
+
+Attention softmax comparison
+Elements:       1568
+Mismatches:     537
+Max abs error:  0.01171875
+Mean abs error: 0.000165718937
+Worst index:    270
+C output:       0.85546875
+PyTorch ref:    0.84375
+First row sum:  1
+
+Running Attention x V...
+
+Attention x V comparison
+Elements:       28672
+Mismatches:     17439
+Max abs error:  0.09375
+Mean abs error: 0.000961853653
+Worst index:    10536
+C output:       -6.53125
+PyTorch ref:    -6.4375
+
+Running output projection...
+
+Output projection comparison
+Elements:       21504
+Mismatches:     13726
+Max abs error:  0.125
+Mean abs error: 0.00404986522
+Worst index:    6160
+C output:       21.25
+PyTorch ref:    21.125
+
+Running post-attention RMSNorm...
+
+Post-attention RMSNorm comparison
+Elements:       21504
+Mismatches:     13841
+Max abs error:  8
+Mean abs error: 0.0183576539
+Worst index:    4624
+C output:       1496
+PyTorch ref:    1488
+
+Running first residual add...
+
+First residual comparison
+Elements:       21504
+Mismatches:     9627
+Max abs error:  8
+Mean abs error: 0.0184131776
+Worst index:    4624
+C output:       1496
+PyTorch ref:    1488
+
+Running pre-FFN RMSNorm...
+
+Pre-FFN RMSNorm comparison
+Elements:       21504
+Mismatches:     11366
+Max abs error:  0.125
+Mean abs error: 0.00162059918
+Worst index:    4863
+C output:       11.6875
+PyTorch ref:    11.8125
+
+Running MLP gate projection...
+Running MLP up projection...
+
+Gate projection comparison
+Elements:       86016
+Mismatches:     53755
+Max abs error:  0.09375
+Mean abs error: 0.00427750529
+Worst index:    81253
+C output:       4.9375
+PyTorch ref:    5.03125
+
+Up projection comparison
+Elements:       86016
+Mismatches:     56761
+Max abs error:  0.0625
+Mean abs error: 0.00320059046
+Worst index:    21312
+C output:       11.125
+PyTorch ref:    11.1875
+
+Running GELU(gate) x up...
+
+Gate x Up comparison
+Elements:       86016
+Mismatches:     67957
+Max abs error:  0.75
+Mean abs error: 0.00137681483
+Worst index:    81253
+C output:       -37.5
+PyTorch ref:    -38.25
+
+Running MLP down projection...
+
+Down projection comparison
+Elements:       21504
+Mismatches:     14624
+Max abs error:  0.375
+Mean abs error: 0.0116856161
+Worst index:    14499
+C output:       -20.75
+PyTorch ref:    -20.375
+
+Running post-FFN RMSNorm...
+
+Post-FFN RMSNorm comparison
+Elements:       21504
+Mismatches:     13618
+Max abs error:  2.25
+Mean abs error: 0.0356436138
+Worst index:    9466
+C output:       -48.5
+PyTorch ref:    -50.75
+
+Running second residual add...
+
+Second residual comparison
+Elements:       21504
+Mismatches:     13005
+Max abs error:  8
+Mean abs error: 0.0474992905
+Worst index:    4624
+C output:       1448
+PyTorch ref:    1440
+
+Running per-layer input gate projection...
+
+Per-layer gate comparison
+Elements:       3584
+Mismatches:     2516
+Max abs error:  0.0234375
+Mean abs error: 0.00223518748
+Worst index:    3504
+C output:       -0.90625
+PyTorch ref:    -0.8828125
+
+Running GELU(per-layer gate) x per-layer input...
+
+Per-layer product comparison
+Elements:       3584
+Mismatches:     2478
+Max abs error:  0.125
+Mean abs error: 0.00108981513
+Worst index:    176
+C output:       16.5
+PyTorch ref:    16.375
+
+Running per-layer projection...
+
+Per-layer projection comparison
+Elements:       21504
+Mismatches:     15590
+Max abs error:  0.0625
+Mean abs error: 0.00341975202
+Worst index:    285
+C output:       -5.6875
+PyTorch ref:    -5.625
+
+Running post-per-layer RMSNorm...
+
+Post-per-layer RMSNorm comparison
+Elements:       21504
+Mismatches:     14258
+Max abs error:  0.28125
+Mean abs error: 0.00953413628
+Worst index:    9329
+C output:       -2.5625
+PyTorch ref:    -2.84375
+
+Layer scalar: 0.0178222656
+Running final layer scalar multiply...
+
+========================================
+FINAL DECODER LAYER COMPARISON
+========================================
+Elements:          21504
+Mismatches:        13067
+Max abs error:     0.25
+Mean abs error:    0.000915267161
+Worst index:       18109
+C output:          -25.75
+PyTorch ref:       -26
+C checksum:        71.3834643364
+PyTorch checksum:  70.866092205
+========================================
+CPU DECODER BASELINE: PASS
