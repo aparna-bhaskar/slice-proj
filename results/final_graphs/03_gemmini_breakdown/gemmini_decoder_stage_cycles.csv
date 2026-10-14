@@ -1,0 +1,24 @@
+Stage,Cycles
+QKV input preparation,1734239
+Q projection,803089
+K projection,88276
+V projection,86386
+CPU reshape,62495
+Q RMSNorm + RoPE,3394327
+K RMSNorm + RoPE,422855
+V RMSNorm,293885
+QK^T,12919
+CPU softmax,240471
+Attention x V,19066
+O input preparation,1334658
+O projection,819553
+FFN input preparation,3513730
+Gate projection,2448935
+Up projection,2447588
+Down input preparation,29356533
+Down projection,2562459
+Post-FFN preparation,2517654
+Per-layer Gate,89913
+Per-layer product preparation,1156823
+Per-layer projection,77775
+Final decoder tail,1898250

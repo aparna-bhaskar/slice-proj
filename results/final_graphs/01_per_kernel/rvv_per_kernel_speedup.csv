@@ -1,0 +1,6 @@
+Kernel,CPU_Spike_cycles,RVV_Spike_cycles,Speedup
+Gate projection,793411718,46629195,17.0153
+Up projection,793411718,46629195,17.0153
+Down projection,792895622,46604427,17.0133
+Per-layer Gate,33058950,1942955,17.0148
+Per-layer projection,33202310,1949835,17.0283

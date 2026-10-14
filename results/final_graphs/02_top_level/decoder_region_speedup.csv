@@ -1,0 +1,3 @@
+Configuration,Spike_cycles,Speedup
+Scalar CPU,3361431065,1.0
+Saturn RVV,250286066,13.4304

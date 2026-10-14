@@ -1,0 +1,67 @@
+GEMMA-4 DECODER PERFORMANCE RESULTS
+===================================
+
+1. PER-KERNEL PERFORMANCE
+
+CPU vs Saturn RVV:
+- Gate projection: approximately 17.02x
+- Up projection: approximately 17.02x
+- Down projection: approximately 17.01x
+- Per-layer Gate: approximately 17.01x
+- Per-layer projection: approximately 17.03x
+
+These are Spike measurements.
+
+CPU vs Gemmini:
+- Synthetic standalone INT8 matmul benchmarks.
+- Tested sizes from 4x4x4 to 14x32x64.
+- Speedups range from approximately 2.07x to 370.50x.
+- These are Verilator measurements.
+
+The CPU/Gemmini synthetic benchmarks are not equivalent
+to the full Gemma-4 decoder projection workloads.
+
+2. TOP-LEVEL PERFORMANCE
+
+Scalar CPU decoder region: 3,361,431,065 cycles
+Saturn RVV decoder region: 250,286,066 cycles
+
+CPU / RVV speedup: 13.43x
+
+These are Spike decoder-region measurements, not
+necessarily full token-generation latency.
+
+3. GEMMINI INTEGRATED DECODER
+
+Successful integrated Verilator run.
+
+Number of reported timed stages: 23
+Sum of reported stage timings: 55,381,879 cycles
+
+Down input preparation: 29,356,533 cycles
+Share of stage subtotal: 53.0%
+
+The stage subtotal is NOT an independently measured
+end-to-end decoder runtime. Some work may be unmeasured,
+and diagnostic overhead may be included.
+
+4. LIMITATIONS
+
+- CPU/RVV measurements use Spike.
+- Gemmini measurements use GemminiRocketConfig Verilator.
+- Spike and Verilator cycle counts must not be directly
+  divided to claim cross-backend hardware speedup.
+- Benchmark shapes and measured region boundaries differ.
+- Some RVV numerical deviations were previously observed.
+- A directly comparable end-to-end Gemmini speedup has
+  not yet been measured.
+
+5. INTERPRETATION
+
+The existing measurements demonstrate substantial
+CPU-to-Saturn acceleration for the measured kernels
+and decoder region, and strong Gemmini acceleration
+for standalone INT8 matrix multiplication.
+
+The Gemmini stage breakdown highlights data preparation
+as a potentially important performance bottleneck.
